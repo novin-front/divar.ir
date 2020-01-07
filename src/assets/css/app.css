@@ -32,7 +32,11 @@ body {
     font-family: iransans;
     font-size: 15px;
 }
-
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 .btn-divar {
     color: #fff;
     background-color: #a62626;
@@ -41,6 +45,9 @@ body {
     padding: .57em 1.14em;
     border-radius: 4px;
     display: inline-block;
+}
+.divar-color{
+    color:#a62626!important;
 }
 .btn-divar:hover{
     color: #fff;
@@ -671,6 +678,224 @@ button.list-group-item:hover {
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #a62626;
 }
+/* Add a gray background color with some padding */
+section.weblog-section ~ * {
+    box-sizing: border-box;
+}
+section.weblog-section {
+    text-align: right;
+    background: #f1f1f1;
+    padding-top: 80px;
+}
+.blog-title-divar {
+    font-size: 20px;
+    padding: 15px 5px;
+    border-bottom: 3px solid #a62626;
+}
+/* Header/Blog Title */
+.weblog-section .header {
+    padding: 30px;
+    /* font-size: 40px; */
+    text-align: center;
+    background: white;
+    width: 98%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 65%;
+    padding-right: 20px;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.weblog-section .footer {
+    padding: 20px;
+    text-align: center;
+    background: #222222;
+    margin-top: 20px;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.footer-logo-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+a.wrapper-blog-logo {
+    width: 190px;
+}
+a.social-btn-blog {
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff12;
+    margin-right: 10px;
+    color: #fff;
+}
+a.social-btn-blog:hover i{
+    color: #8b2020;
+}
+.social-network-blog-sidebar .social-btn-blog {
+    background-color: #8b202098;
+}
+.post-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.post-content .fakeimg-thumbnail {
+    width: 80px;
+    border: 1px solid #a62626;
+    padding: 1px;
+}
+
+.post-content h4 {
+    font-size: 18px;
+    padding: 0 10px;
+}
+h2.post-title-itme {
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px solid #b82e2e;
+    padding: 10px 0;
+}
+
+.post-time-publish-itme {
+    text-align: right;
+    font-size: 12px;
+    display: inline-block !important;
+    padding: 10px 0px;
+}
+.post-image-itme {
+    width: 100%;
+    overflow: hidden;
+}
+.post-image-itme img {
+    width: 100%;
+}
+.more-btn-wrapper {
+    padding: 30px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+a.more-btn-bost {
+    font-size: 14px;
+    padding: 10px;
+    background: #a62626;
+    color: #fff;
+    border-radius: 3px;
+}
+a.more-btn-bost:hover{
+    opacity: .8;
+}
+.content-post-itme {
+    padding: 15px 0;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+/* ******************  Support section ************************** */
+section.support-section {
+    width: 100%;
+    padding-top: 80px;
+    background: #fcfcfc;
+}
+section.support-section  input.form-control {
+    height: 60px;
+    font-size: 20px;
+    margin: 15px 0;
+}
+ul.category-icon-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+li.category-icon-list__itme {
+    padding: 0 10px;
+}
+li.category-icon-list__itme a {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(56, 56, 56);
+    font-size: 16px;
+    text-align: center;
+}
+
+li.category-icon-list__itme a i {
+    font-size: 52px;
+    margin: 20px 0 10px 0;
+}
+.contact_us-section {
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+    background: #fff;
+}
+.btn-contact-support {
+    display: inline-block;
+    margin-top: 25px;
+    background-color: #c41425;
+    padding: 10px 20px;
+    color: #FFF;
+    transition: all .2s;
+    border-radius: 3px;
+}
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+    .category-icon-list {
+        flex-flow: column-reverse;
+    }
+    .support-section h1{
+        font-size: 22px;
+    }
+}
 @media screen and (min-width:1200px){
     nav#navbar-main li.nav-item {
         display: flex;
@@ -686,5 +911,26 @@ button.list-group-item:hover {
     }
     section#main-sidebar {
         margin: 90px 0;
+    }
+    .contact_us-section{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+@media screen  and (min-width:1500px){
+    ul.category-icon-list{
+        max-width: 1400px;
+        margin:30px auto;
+    }
+    nav#navbar-main .container-fluid {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .weblog-section .header ,
+    .weblog-section .footer,
+    .weblog-section .container-fluid
+    {
+        max-width: 1250px;
+        margin: 0 auto;
     }
 }

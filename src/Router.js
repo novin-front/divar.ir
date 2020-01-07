@@ -5,6 +5,8 @@ import Chat from "components/chatComponent/Chat";
 import Landing from "views/examples/Landing";
 import Index from "views/Index";
 import NewAdvertising from "components/Advertising/newAdvertis/NewAdvertising";
+import Weblog from "components/blog/Weblog";
+import Support from "components/Support/Support";
 
 const router =[
      {
@@ -60,6 +62,22 @@ const router =[
          path: "/new",
          name: "ثبت آگهی جدید",
          component: NewAdvertising,
+         menuPosition: "mainMenu",
+         render: true,
+         mainMenu: true,
+     },
+     {
+         path: "/blog",
+         name: "ثبت آگهی جدید",
+         component: Weblog,
+         menuPosition: "mainMenu",
+         render: true,
+         mainMenu: true,
+     },
+     {
+         path: "/support",
+         name: "ثبت آگهی جدید",
+         component: Support,
          menuPosition: "mainMenu",
          render: true,
          mainMenu: true,

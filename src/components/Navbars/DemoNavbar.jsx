@@ -133,7 +133,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <Link
                       className="link-itme"
-                      to="/register-page"
+                      to="/support"
 
                     >
                      پشتیبانی و قوانین

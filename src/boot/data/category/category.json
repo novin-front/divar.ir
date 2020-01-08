@@ -1,0 +1,261 @@
+[
+    {
+        "id":"1",
+        "title": "املاک",
+        "parent":null,
+        "subcategory" : [
+            {
+                "id": "101",
+                "title": "زیر دسته بندی",
+                "parent": 1,
+                "subcategory":null
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title": "وسایل نقلیه",
+        "parent": null,
+        "subcategory": [
+            {
+                "id": "201",
+                "title": "خودرو",
+                "parent": 2,
+                "subcategory": null
+            },
+            {
+                "id": "202",
+                "title": "قطعات یدکی و لوازم جانبی خودرو",
+                "parent": 2,
+                "subcategory": null
+            },
+            {
+                "id": "203",
+                "title": "موتورسیکلت و لوازم جانبی",
+                "parent": 2,
+                "subcategory": null
+            },
+            {
+                "id": "204",
+                "title": "قایق و لوازم جانبی",
+                "parent": 2,
+                "subcategory": null
+            },
+            {
+                "id": "205",
+                "title": "متفرقه",
+                "parent": 2,
+                "subcategory": null
+            }
+    ]
+    },
+    {
+        "id": "3",
+        "title": "لوازم الکترونیکی",
+        "parent": null,
+        "subcategory": [
+            {
+                "id": "301",
+                "title": "موبایل و تبلت",
+                "parent": 3,
+                "subcategory": null
+            },
+            {
+                "id": "302",
+                "title": "رایانه",
+                "parent": 3,
+                "subcategory": null
+            },
+            {
+                "id": "303",
+                "title": "کنسول، بازی‌ ویدئویی و آنلاین",
+                "parent": 3,
+                "subcategory": null
+            },
+            {
+                "id": "304",
+                "title": "صوتی و تصویری",
+                "parent": 3,
+                "subcategory": null
+            },
+            {
+                "id": "305",
+                "title": "تلفن رومیزی",
+                "parent": 3,
+                "subcategory": null
+            },
+            {
+                "id": "306",
+                "title": "متفرقه",
+                "parent": 3,
+                "subcategory": null
+            }
+    ]
+    },
+    {
+        "id": "4",
+        "title": "مربوط به خانه",
+        "parent": null,
+        "subcategory": 
+        [
+            {
+                "id": "401",
+                "title": "وسایل و تزئینات خانه",
+                "parent": 4,
+                "subcategory": [
+                    {
+                        "id": "4001",
+                        "title": "تزئینی و آثار هنری",
+                        "parent": 401,
+                        "subcategory" : null
+                    },
+                    {
+                        "id": "4002",
+                        "title": "لوازم روشنایی",
+                        "parent": 401,
+                        "subcategory": null
+                    },
+                    {
+                        "id": "4003",
+                        "title": "میز و صندلی",
+                        "parent": 401,
+                        "subcategory": null
+                    },
+                    {
+                        "id": "4004",
+                        "title": "فرش و گلیم",
+                        "parent": 401,
+                        "subcategory": null
+                    },
+                    {
+                        "id": "4005",
+                        "title": "کمد و بوفه",
+                        "parent": 401,
+                        "subcategory": null
+                    }
+                ]
+            },
+            {
+                "id": "402",
+                "title": "وسایل آشپزخانه",
+                "parent": 4,
+                "subcategory": [
+                    {
+                        "id": "4001",
+                        "title": "ماشین ظرفشویی",
+                        "parent": 4,
+                        "subcategory" :null
+                    },
+                    {
+                        "id": "4002",
+                        "title": "یخچال و فریزر",
+                        "parent": 4,
+                        "subcategory":null
+                    },
+                    {
+                        "id": "4003",
+                        "title": "وسایل آشپزی و غذاخوری",
+                        "parent": 4,
+                        "subcategory": null
+                    },
+                    {
+                        "id": "4004",
+                        "title": "مایکروویو و گاز",
+                        "parent": 4,
+                        "subcategory": null
+                    },
+                    {
+                        "id": "4005",
+                        "title": "ماشین لباسشویی و خشک کننده",
+                        "parent": 4,
+                        "subcategory": null
+                    }
+                ]
+            },
+            {
+                "id": "403",
+                "title": "ابزار",
+                "parent": 4,
+                "subcategory": null
+            },
+            {
+                "id": "404",
+                "title": "ساختمان و حیاط",
+                "parent": 4,
+                "subcategory": null
+            },
+            {
+                "id": "405",
+                "title": "متفرقه",
+                "parent": 4,
+                "subcategory": null
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "title": "خدمات",
+        "parent": null,
+        "subcategory": [{
+            "id": "501",
+            "title": "زیر دسته بندی",
+            "parent": 5,
+            "subcategory": null
+        }]
+    },
+    {
+        "id": "7",
+        "title": "وسایل شخصی",
+        "parent": null,
+        "subcategory": [{
+            "id": "701",
+            "title": "زیر دسته بندی",
+            "parent": 7,
+            "subcategory": null
+        }]
+    },
+    {
+        "id": "8",
+        "title": "سرگرمی و فراغت",
+        "parent": null,
+        "subcategory": [{
+            "id": "801",
+            "title": "زیر دسته بندی",
+            "parent": 8,
+            "subcategory": null
+        }]
+    },
+    {
+        "id": "9",
+        "title": "اجتماعی",
+        "parent": null,
+        "subcategory": [{
+            "id": "901",
+            "title": "زیر دسته بندی",
+            "parent": 9,
+            "subcategory": null
+        }]
+    },
+    {
+        "id": "10",
+        "title": "برای کسب و کار",
+        "parent": null,
+        "subcategory": [{
+            "id": "1001",
+            "title": "زیر دسته بندی",
+            "parent": 10,
+            "subcategory": null
+        }]
+    },
+    {
+        "id": "11",
+        "title": "استخدام و کاریابی (غیر رایگان)",
+        "parent": null,
+        "subcategory": [{
+            "id": "1101",
+            "title": "زیر دسته بندی",
+            "parent": 11,
+            "subcategory": null
+        }]
+    }
+]

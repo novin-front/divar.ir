@@ -1,0 +1,47 @@
+[
+    {
+        "Id" : "1",
+        "title": "خریدار انواع ظرفشویی درتمام مناطق تهران",
+        "discription": "خریدار انواع ظرفشویی سامسونگ الجی بوش در تمام مناطق تهران و حومه به بالاترین قیمت خرید به صورت حضوری در محل شما ",
+        "category": {
+            "category_id" :"4",
+            "category_title": "مربوط به خانه"
+        },
+        "subCategory" : [
+            {
+                "id": "401",
+                "title": "ماشین ظرفشویی",
+                "parent" : "4"
+            }
+        ],
+        "price" : "25000",
+        "Province":"تهران",
+        "cityArea": "اکبتان",
+        "typeAdvertise": "فروشی",        
+        "imageAdvertise": ["https://s101.divarcdn.com/static/pictures/1578524023/QX9G_vun.jpg", "https://s101.divarcdn.com/static/pictures/1578524023/QX9G_vun.1.jpg", "https://s101.divarcdn.com/static/pictures/1578524023/QX9G_vun.2.jpg"],
+        "Swap" : "false",
+        "divarChat" : "false",
+        "noImage" : "false"
+    },
+    {
+        "Id" : "2",
+        "title": "ماشین ظرفشویی رومیزی ۸نفره مدیا",
+        "discription": "اکبند هست استفاده نشده برای جهیزیه بوده حتی گارانتی هنوز استفاده نشده و مواد شویندش هم هست ک اونارو همینجوری رو دستگاه میدم",
+        "category": {
+            "category_id" :"4",
+            "category_title": "مربوط به خانه"
+        },
+        "subCategory": [{
+            "sub_category_id": "4004",
+            "sub_category_title": "ماشین ظرفشویی"
+        }],
+        "price" : "252000",
+        "Province":"تهران",
+        "cityArea": "شهر ری",
+        "typeAdvertise": "فروشی",        
+        "imageAdvertise": ["https://s101.divarcdn.com/static/pictures/1578523973/gXWsC7Ux.jpg", "https://s101.divarcdn.com/static/pictures/1578523973/gXWsC7Ux.1.jpg", "https://s101.divarcdn.com/static/pictures/1578523973/gXWsC7Ux.2.jpg"],
+        "Swap" : "false",
+        "divarChat" : "false",
+        "noImage" : "false"
+    }
+]

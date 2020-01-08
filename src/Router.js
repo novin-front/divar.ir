@@ -2,8 +2,6 @@ import MainPage from "views/MainPage";
 import About from "components/page/About";
 import Contact from "components/page/contact";
 import Chat from "components/chatComponent/Chat";
-import Landing from "views/examples/Landing";
-import Index from "views/Index";
 import NewAdvertising from "components/Advertising/newAdvertis/NewAdvertising";
 import Weblog from "components/blog/Weblog";
 import Support from "components/Support/Support";
@@ -22,22 +20,6 @@ const router =[
          path: "/chat",
          name: "چت",
          component: Chat,
-         menuPosition: "mainMenu",
-         render: true,
-         mainMenu: true,
-     },
-     {
-         path: "/landing-page",
-         name: "چت",
-         component: Landing,
-         menuPosition: "mainMenu",
-         render: true,
-         mainMenu: true,
-     },
-     {
-         path: "/home",
-         name: "چت",
-         component: Index,
          menuPosition: "mainMenu",
          render: true,
          mainMenu: true,

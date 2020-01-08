@@ -1,6 +1,6 @@
 {
 	"version": 3,
-	"file": "argon-design-system-react.css",
+	"file": "design-system-style.css",
 	"sources": [
 		"../scss/argon-design-system-react.scss",
 		"../scss/bootstrap/_functions.scss",

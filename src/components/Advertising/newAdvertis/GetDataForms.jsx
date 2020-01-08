@@ -337,6 +337,8 @@ export default function GetDataForms() {
 
                   <Form.Control
                     ref={register({ required: true })}
+                    name="discription"
+                    id="discription"
                     as="textarea"
                     rows="3"
                   />

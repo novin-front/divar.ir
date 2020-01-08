@@ -7,8 +7,7 @@ import Content from 'components/Container/Content';
 export default function MainPage() {
     return (
         <>
-            <DemoNavbar />
-            <Container fluid={true}>
+            <Container fluid={true} id="mainpage">
                 <Row>
                     <Col md={3} className="p-0">
                         <MainSidebar />

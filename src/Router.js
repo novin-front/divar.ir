@@ -7,6 +7,7 @@ import Index from "views/Index";
 import NewAdvertising from "components/Advertising/newAdvertis/NewAdvertising";
 import Weblog from "components/blog/Weblog";
 import Support from "components/Support/Support";
+import SingelAdvertis from "components/Advertising/view/SingelAdvertis";
 
 const router =[
      {
@@ -78,6 +79,14 @@ const router =[
          path: "/support",
          name: "ثبت آگهی جدید",
          component: Support,
+         menuPosition: "mainMenu",
+         render: true,
+         mainMenu: true,
+     },
+     {
+         path: "/view",
+         name: "نمایش آگهی",
+         component: SingelAdvertis,
          menuPosition: "mainMenu",
          render: true,
          mainMenu: true,

@@ -45,6 +45,26 @@ ul{
     padding: .57em 1.14em;
     border-radius: 4px;
     display: inline-block;
+    cursor: pointer;
+}
+.btn-divar-border{
+    color: #a62626;
+    border:1px solid #a62626;
+    transition: all .4s;
+    padding: .57em 1.14em;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-divar-cancel {
+        background: #e0e1e2 none;
+        color: rgba(0, 0, 0, .6);
+        border: none;
+        transition: all .4s;
+        padding: .57em 1.14em;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
 }
 .divar-color{
     color:#a62626!important;
@@ -52,6 +72,14 @@ ul{
 .btn-divar:hover{
     color: #fff;
     background-color: #bd2727;
+}
+.modal-loaer-content h4{
+    font-size: 20px;
+}
+.modal-loaer-content P,
+.modal-loaer-content h4 {
+    font-weight: 500;
+    color: #000;
 }
 section.content-all {
     margin-top: 95px;
@@ -337,6 +365,19 @@ button.btn-filter-search {
      display: -ms-flexbox;
      display: flex;
  }
+  .post-card__image::after{
+       content: "";
+       background-image: url(../img/divar/image-placeholder.png);
+       display: block;
+       position: absolute;
+       z-index: 2;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       background-color: #fff;
+       background-size: cover;
+  }
  .post-list-card__info {
      width: 100%;
      display: flex;
@@ -882,6 +923,180 @@ li.category-icon-list__itme a i {
     transition: all .2s;
     border-radius: 3px;
 }
+
+/************ Single view Adivertising *******************/
+section.single-Adivertis-view {
+    width: 100%;
+    padding-top: 83px;
+    padding-bottom: 50px;
+}
+a.breadcrumb-item {
+    padding: 10px 0;
+}
+.single-Adivertis-view .breadcrumb {
+    background-color: #fafafa !important;
+    border: 1px solid #ededed !important;
+    margin-top: 1em;
+    border-radius: 0;
+    padding: 0;
+    display: flex;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    padding: 0 3px;
+    color:#e0e0e0;
+}
+.breadcrumb-item+.breadcrumb-item{
+    padding-left: 0;
+}
+.single-Adivertis-view .breadcrumb a{
+    color:rgba(0, 0, 0, .87);
+    font-size: .9rem;
+}
+.breadcrumb-item.active {
+    color: #8898aa;
+    border-left: 1px solid #ededed;
+    padding: 10px;
+}
+.breadcrumb-item.first-child::before {
+    display: none;
+}
+.Advertis-content-Wrapper{
+    text-align: right;
+    margin-bottom: 20px;
+}
+.Advertis-content-Wrapper__title {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: right;
+}
+.Advertis-content-Wrapper__publish-time {
+    text-align: right;
+    font-size: 12px;
+    padding: 10px;
+}
+.btn-divar-block {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+    flex-wrap: wrap;
+    background: transparent;
+    border: 1px solid #252525;
+    padding: 3px 12px;
+    border-radius: 3px;
+    color: #000 !important;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.btn-divar-block span {
+    padding: 5px;
+}
+li.advertis-data-list__item {
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d6d6d6;
+    font-size: 15px;
+}
+.discription-Adivertis {
+    padding: 20px 15px;
+}
+/* **************** Slick slider style *************************/
+.slider-image-small {
+    width: 72px;
+    border: 1px solid #ffa6a6;
+    padding: 2px;
+    cursor: pointer;
+}
+/* ************* Box short link share *******************/
+.adivertis-box-share {
+    width: 100%;
+    margin: 40px 0;
+}
+.box-short-link-toltips {
+    position: relative;
+}
+.adivertis-box-share__box-link {
+    display: flex;
+    width: 100%;
+    background: transparent;
+    padding: 20px 16px;
+    margin-bottom: 16px;
+    border: 1px solid #cacaca;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+}
+input#ShortLinkInput {
+    width: 13em;
+    border: none;
+
+}
+input#ShortLinkInput::selection {
+    background: transparent;
+}
+.adivertis-box-share__box-link  .title-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adivertis-box-share__box-link  .title-link i{
+    padding-left: 10px;
+    font-size: 22px;
+}
+.adivertis-box-share__guidelines {
+    display: flex;
+    flex-flow: wrap;
+    margin: 20px 0;
+}
+.adivertis-box-share__guidelines p{
+    margin: 0;
+    font-size: 16px;
+}
+.adivertis-box-share__guidelines p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.adivertis-box-share__guidelines {
+    display: flex;
+    flex-flow: wrap;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.adivertis-box-share__report {
+    border: none;
+    background: transparent;
+    float: left;
+    cursor: pointer;
+    transition: .3s;
+}
+.adivertis-box-share__report:hover{
+    color: #b82e2e;
+}
+.Modal-coustom-react-bootstap .modal-header .close {
+    margin-left: 0;
+}
+.Modal-coustom-react-bootstap .modal-header {
+    border: none;
+}
+.Modal-coustom-react-bootstap .modal-header .modal-title.h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.Modal-coustom-react-bootstap .modal-header .close>span:not(.sr-only){
+    color: #000;
+    font-size: 1.5rem;
+}
+.Modal-coustom-react-bootstap .modal-body{
+    text-align: right;
+}
+.bg-modal-footer{
+    background-color: #f5f5f5!important;
+}
 @media screen and (max-width: 800px) {
 
     .leftcolumn,
@@ -896,6 +1111,11 @@ li.category-icon-list__itme a i {
         font-size: 22px;
     }
 }
+ul.advertis-data-list {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
 @media screen and (min-width:1200px){
     nav#navbar-main li.nav-item {
         display: flex;
@@ -903,6 +1123,9 @@ li.category-icon-list__itme a i {
         align-items: center;
     }
     #Modal-city {
+        max-width: 54em;
+    }
+    .Modal-coustom-react-bootstap .modal-dialog {
         max-width: 54em;
     }
     nav#navbar-main .collapse.navbar-collapse {
@@ -931,6 +1154,10 @@ li.category-icon-list__itme a i {
     .weblog-section .container-fluid
     {
         max-width: 1250px;
+        margin: 0 auto;
+    }
+    div#mainpage {
+        max-width: 1440px;
         margin: 0 auto;
     }
 }

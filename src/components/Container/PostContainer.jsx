@@ -11,12 +11,14 @@ import {
   Label,
   Input
 } from "reactstrap";
+import { Link } from 'react-router-dom';
 
 export default function PostContainer() {
     return (
       <section className="post-Container">
         <div className="browse-post-list">
-          <div className="col-xs-12 col-sm-6 col-xl-4 post-list-card">
+
+          <Link className="col-xs-12 col-sm-6 col-xl-4 post-list-card" to="/view">
             <div className="post-list-card__content">
               <h4 className="post-list-card__title">
                 صندلی سیلور تالاری تالار مجلسی
@@ -41,8 +43,10 @@ export default function PostContainer() {
                 title="صابون زغال اورکلین EVER CLEAN"
               />
             </div>
-          </div>
-          <div className="col-xs-12 col-sm-6 col-xl-4 post-list-card">
+          </Link>
+
+
+          <Link className="col-xs-12 col-sm-6 col-xl-4 post-list-card" to="/view">
             <div className="post-list-card__content">
               <h4 className="post-list-card__title">
                 صندلی سیلور تالاری تالار مجلسی
@@ -67,8 +71,9 @@ export default function PostContainer() {
                 title="صابون زغال اورکلین EVER CLEAN"
               />
             </div>
-          </div>
-          <div className=" col-xs-12 col-sm-6 col-xl-4 post-list-card">
+          </Link>
+
+          <Link className="col-xs-12 col-sm-6 col-xl-4 post-list-card" to="/view">
             <div className="post-list-card__content">
               <h4 className="post-list-card__title">
                 صندلی سیلور تالاری تالار مجلسی
@@ -90,11 +95,12 @@ export default function PostContainer() {
                 src="https://s101.divarcdn.com/static/thumbnails/1578241574/gXMEYObY.jpg"
                 className="post-card__image mg-fluid rounded"
                 alt="صابون زغال اورکلین EVER CLEAN"
-                title="صابون زغال اورکلین EVER CLEAN"
+                onError="this.style.display='none'"
               />
             </div>
-          </div>
-          <div className="col-xs-12 col-sm-6 col-xl-4 post-list-card">
+          </Link>
+
+          <Link className="col-xs-12 col-sm-6 col-xl-4 post-list-card" to="/view">
             <div className="post-list-card__content">
               <h4 className="post-list-card__title">
                 صندلی سیلور تالاری تالار مجلسی
@@ -119,7 +125,7 @@ export default function PostContainer() {
                 title="صابون زغال اورکلین EVER CLEAN"
               />
             </div>
-          </div>
+          </Link>
         </div>
       </section>
     );

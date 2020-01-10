@@ -1,0 +1,1204 @@
+{
+    "result": "success",
+    "categories": [{
+        "parent_slug": null,
+        "slug": "root",
+        "title": "\u062f\u0633\u062a\u0647 \u0628\u0646\u062f\u06cc \u0627\u0635\u0644\u06cc",
+        "icon_url": null,
+        "old_meta_id": 0
+    }, {
+        "parent_slug": "root",
+        "slug": "real-estate",
+        "title": "\u0627\u0645\u0644\u0627\u06a9",
+        "icon_url": "http://s100.divarcdn.com/static/explorers/categories/house_%s.png",
+        "old_meta_id": 143
+    }, {
+        "parent_slug": "real-estate",
+        "slug": "residential-rent",
+        "title": "\u0627\u062c\u0627\u0631\u0647 \u0645\u0633\u06a9\u0648\u0646\u06cc (\u0622\u067e\u0627\u0631\u062a\u0645\u0627\u0646\u060c \u062e\u0627\u0646\u0647\u060c \u0632\u0645\u06cc\u0646)",
+        "icon_url": null,
+        "old_meta_id": 213
+    }, {
+        "parent_slug": "root",
+        "slug": "vehicles",
+        "title": "\u0648\u0633\u0627\u06cc\u0644 \u0646\u0642\u0644\u06cc\u0647",
+        "icon_url": "http://s100.divarcdn.com/static/explorers/categories/car_%s.png",
+        "old_meta_id": 67
+    }, {
+        "parent_slug": "root",
+        "slug": "electronic-devices",
+        "title": "\u0644\u0648\u0627\u0632\u0645 \u0627\u0644\u06a9\u062a\u0631\u0648\u0646\u06cc\u06a9\u06cc",
+        "icon_url": "http://s100.divarcdn.com/static/explorers/categories/electronic-devices_%s.png",
+        "old_meta_id": 1
+    }, {
+        "parent_slug": "root",
+        "slug": "for-the-home",
+        "title": "\u0645\u0631\u0628\u0648\u0637 \u0628\u0647 \u062e\u0627\u0646\u0647",
+        "icon_url": "http://s100.divarcdn.com/static/explorers/categories/home-appliance_%s.png",
+        "old_meta_id": 2
+    }, {
+        "parent_slug": "root",
+        "slug": "services",
+        "title": "\u062e\u062f\u0645\u0627\u062a",
+        "icon_url": "http://s100.divarcdn.com/static/explorers/categories/service_%s.png",
+        "old_meta_id": 125
+    }, {
+        "parent_slug": "root",
+        "slug": "personal",
+        "title": "\u0648\u0633\u0627\u06cc\u0644 \u0634\u062e\u0635\u06cc",
+        "icon_url": "http://s100.divarcdn.com/static/explorers/categories/personal-stuff_%s.png",
+        "old_meta_id": 12
+    }, {
+        "parent_slug": "root",
+        "slug": "leisure-hobbies",
+        "title": "\u0633\u0631\u06af\u0631\u0645\u06cc \u0648 \u0641\u0631\u0627\u063a\u062a",
+        "icon_url": "http://s100.divarcdn.com/static/explorers/categories/entertainment_%s.png",
+        "old_meta_id": 38
+    }, {
+        "parent_slug": "root",
+        "slug": "community",
+        "title": "\u0627\u062c\u062a\u0645\u0627\u0639\u06cc",
+        "icon_url": "http://s100.divarcdn.com/static/explorers/categories/social_%s.png",
+        "old_meta_id": 151
+    }, {
+        "parent_slug": "root",
+        "slug": "businesses",
+        "title": "\u0628\u0631\u0627\u06cc \u06a9\u0633\u0628 \u0648 \u06a9\u0627\u0631",
+        "icon_url": "http://s100.divarcdn.com/static/explorers/categories/business_%s.png",
+        "old_meta_id": 79
+    }, {
+        "parent_slug": "root",
+        "slug": "jobs",
+        "title": "\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0648 \u06a9\u0627\u0631\u06cc\u0627\u0628\u06cc (\u063a\u06cc\u0631 \u0631\u0627\u06cc\u06af\u0627\u0646)",
+        "icon_url": "http://s100.divarcdn.com/static/explorers/categories/recruitment_%s.png",
+        "old_meta_id": 191
+    }, {
+        "parent_slug": "electronic-devices",
+        "slug": "mobile-tablet",
+        "title": "\u0645\u0648\u0628\u0627\u06cc\u0644 \u0648 \u062a\u0628\u0644\u062a",
+        "icon_url": "",
+        "old_meta_id": 37
+    }, {
+        "parent_slug": "for-the-home",
+        "slug": "furniture-and-home-decore",
+        "title": "\u0648\u0633\u0627\u06cc\u0644 \u0648 \u062a\u0632\u0626\u06cc\u0646\u0627\u062a \u062e\u0627\u0646\u0647",
+        "icon_url": "",
+        "old_meta_id": 4
+    }, {
+        "parent_slug": "personal",
+        "slug": "clothing-and-shoes",
+        "title": "\u06a9\u06cc\u0641\u060c \u06a9\u0641\u0634 \u0648 \u0644\u0628\u0627\u0633",
+        "icon_url": null,
+        "old_meta_id": 13
+    }, {
+        "parent_slug": "electronic-devices",
+        "slug": "computers",
+        "title": "\u0631\u0627\u06cc\u0627\u0646\u0647",
+        "icon_url": "",
+        "old_meta_id": 24
+    }, {
+        "parent_slug": "leisure-hobbies",
+        "slug": "ticket",
+        "title": "\u0628\u0644\u06cc\u0637",
+        "icon_url": null,
+        "old_meta_id": 39
+    }, {
+        "parent_slug": "vehicles",
+        "slug": "cars",
+        "title": "\u062e\u0648\u062f\u0631\u0648",
+        "icon_url": null,
+        "old_meta_id": 68
+    }, {
+        "parent_slug": "services",
+        "slug": "car-and-motor",
+        "title": "\u0645\u0648\u062a\u0648\u0631 \u0648 \u0645\u0627\u0634\u06cc\u0646",
+        "icon_url": "",
+        "old_meta_id": 132
+    }, {
+        "parent_slug": "community",
+        "slug": "event",
+        "title": "\u0631\u0648\u06cc\u062f\u0627\u062f",
+        "icon_url": "",
+        "old_meta_id": 152
+    }, {
+        "parent_slug": "jobs",
+        "slug": "administration-and-hr",
+        "title": "\u0627\u062f\u0627\u0631\u06cc \u0648 \u0645\u062f\u06cc\u0631\u06cc\u062a",
+        "icon_url": "",
+        "old_meta_id": 192
+    }, {
+        "parent_slug": "real-estate",
+        "slug": "residential-sell",
+        "title": "\u0641\u0631\u0648\u0634 \u0645\u0633\u06a9\u0648\u0646\u06cc (\u0622\u067e\u0627\u0631\u062a\u0645\u0627\u0646\u060c \u062e\u0627\u0646\u0647\u060c \u0632\u0645\u06cc\u0646)",
+        "icon_url": null,
+        "old_meta_id": 209
+    }, {
+        "parent_slug": "jobs",
+        "slug": "janitorial-cleaning",
+        "title": "\u0633\u0631\u0627\u06cc\u062f\u0627\u0631\u06cc \u0648 \u0646\u0638\u0627\u0641\u062a",
+        "icon_url": "",
+        "old_meta_id": 232
+    }, {
+        "parent_slug": "electronic-devices",
+        "slug": "game-consoles-and-video-games",
+        "title": "\u06a9\u0646\u0633\u0648\u0644\u060c \u0628\u0627\u0632\u06cc\u200c \u0648\u06cc\u062f\u0626\u0648\u06cc\u06cc \u0648 \u0622\u0646\u0644\u0627\u06cc\u0646",
+        "icon_url": "",
+        "old_meta_id": 186
+    }, {
+        "parent_slug": "for-the-home",
+        "slug": "utensils-and-appliances",
+        "title": "\u0648\u0633\u0627\u06cc\u0644 \u0622\u0634\u067e\u0632\u062e\u0627\u0646\u0647",
+        "icon_url": "",
+        "old_meta_id": 5
+    }, {
+        "parent_slug": "personal",
+        "slug": "jewelry-and-watches",
+        "title": "\u062a\u0632\u06cc\u06cc\u0646\u06cc",
+        "icon_url": "",
+        "old_meta_id": 14
+    }, {
+        "parent_slug": "electronic-devices",
+        "slug": "audio-video",
+        "title": "\u0635\u0648\u062a\u06cc \u0648 \u062a\u0635\u0648\u06cc\u0631\u06cc",
+        "icon_url": "",
+        "old_meta_id": 30
+    }, {
+        "parent_slug": "businesses",
+        "slug": "equipments-and-machinery",
+        "title": "\u062a\u062c\u0647\u06cc\u0632\u0627\u062a \u0648 \u0645\u0627\u0634\u06cc\u0646\u200c\u0622\u0644\u0627\u062a",
+        "icon_url": "",
+        "old_meta_id": 124
+    }, {
+        "parent_slug": "services",
+        "slug": "catering",
+        "title": "\u067e\u0630\u06cc\u0631\u0627\u06cc\u06cc/\u0645\u0631\u0627\u0633\u0645",
+        "icon_url": "",
+        "old_meta_id": 133
+    }, {
+        "parent_slug": "community",
+        "slug": "volunteers",
+        "title": "\u062f\u0627\u0648\u0637\u0644\u0628\u0627\u0646\u0647",
+        "icon_url": "",
+        "old_meta_id": 153
+    }, {
+        "parent_slug": "personal",
+        "slug": "health-beauty",
+        "title": "\u0622\u0631\u0627\u06cc\u0634\u06cc\u060c \u0628\u0647\u062f\u0627\u0634\u062a\u06cc \u0648 \u062f\u0631\u0645\u0627\u0646\u06cc",
+        "icon_url": "",
+        "old_meta_id": 173
+    }, {
+        "parent_slug": "leisure-hobbies",
+        "slug": "travel-packages",
+        "title": "\u062a\u0648\u0631 \u0648 \u0686\u0627\u0631\u062a\u0631",
+        "icon_url": "",
+        "old_meta_id": 189
+    }, {
+        "parent_slug": "jobs",
+        "slug": "construction-craft",
+        "title": "\u0645\u0639\u0645\u0627\u0631\u06cc \u060c\u0639\u0645\u0631\u0627\u0646 \u0648 \u0633\u0627\u062e\u062a\u0645\u0627\u0646\u06cc",
+        "icon_url": "",
+        "old_meta_id": 193
+    }, {
+        "parent_slug": "jobs",
+        "slug": "shop-restaurant",
+        "title": "\u062e\u062f\u0645\u0627\u062a \u0641\u0631\u0648\u0634\u06af\u0627\u0647 \u0648 \u0631\u0633\u062a\u0648\u0631\u0627\u0646",
+        "icon_url": "",
+        "old_meta_id": 202
+    }, {
+        "parent_slug": "baby-and-toys",
+        "slug": "childrens-clothing-and-shoe",
+        "title": "\u06a9\u0641\u0634 \u0648 \u0644\u0628\u0627\u0633 \u0628\u0686\u0647",
+        "icon_url": null,
+        "old_meta_id": 18
+    }, {
+        "parent_slug": "leisure-hobbies",
+        "slug": "book-student-literature",
+        "title": "\u06a9\u062a\u0627\u0628 \u0648 \u0645\u062c\u0644\u0647",
+        "icon_url": "",
+        "old_meta_id": 45
+    }, {
+        "parent_slug": "vehicles",
+        "slug": "parts-accessories",
+        "title": "\u0642\u0637\u0639\u0627\u062a \u06cc\u062f\u06a9\u06cc \u0648 \u0644\u0648\u0627\u0632\u0645 \u062c\u0627\u0646\u0628\u06cc \u062e\u0648\u062f\u0631\u0648",
+        "icon_url": null,
+        "old_meta_id": 69
+    }, {
+        "parent_slug": "for-the-home",
+        "slug": "utility",
+        "title": "\u0627\u0628\u0632\u0627\u0631",
+        "icon_url": "",
+        "old_meta_id": 81
+    }, {
+        "parent_slug": "services",
+        "slug": "computer-and-mobile",
+        "title": "\u062e\u062f\u0645\u0627\u062a \u0631\u0627\u06cc\u0627\u0646\u0647\u200c\u0627\u06cc \u0648 \u0645\u0648\u0628\u0627\u06cc\u0644",
+        "icon_url": "",
+        "old_meta_id": 134
+    }, {
+        "parent_slug": "jobs",
+        "slug": "computer-and-it",
+        "title": "\u0631\u0627\u06cc\u0627\u0646\u0647 \u0648 \u0641\u0646\u0627\u0648\u0631\u06cc \u0627\u0637\u0644\u0627\u0639\u0627\u062a",
+        "icon_url": "",
+        "old_meta_id": 194
+    }, {
+        "parent_slug": "real-estate",
+        "slug": "commercial-sell",
+        "title": "\u0641\u0631\u0648\u0634 \u0627\u062f\u0627\u0631\u06cc \u0648 \u062a\u062c\u0627\u0631\u06cc (\u0645\u063a\u0627\u0632\u0647\u060c \u062f\u0641\u062a\u0631 \u06a9\u0627\u0631\u060c \u0635\u0646\u0639\u062a\u06cc)",
+        "icon_url": null,
+        "old_meta_id": 217
+    }, {
+        "parent_slug": "electronic-devices",
+        "slug": "phone",
+        "title": "\u062a\u0644\u0641\u0646 \u0631\u0648\u0645\u06cc\u0632\u06cc",
+        "icon_url": "",
+        "old_meta_id": 233
+    }, {
+        "parent_slug": "for-the-home",
+        "slug": "building-and-garden",
+        "title": "\u0633\u0627\u062e\u062a\u0645\u0627\u0646 \u0648 \u062d\u06cc\u0627\u0637",
+        "icon_url": "",
+        "old_meta_id": 3
+    }, {
+        "parent_slug": "personal",
+        "slug": "baby-and-toys",
+        "title": "\u0648\u0633\u0627\u06cc\u0644 \u0628\u0686\u0647 \u0648 \u0627\u0633\u0628\u0627\u0628 \u0628\u0627\u0632\u06cc",
+        "icon_url": "",
+        "old_meta_id": 19
+    }, {
+        "parent_slug": "leisure-hobbies",
+        "slug": "bicycle",
+        "title": "\u062f\u0648\u0686\u0631\u062e\u0647/\u0627\u0633\u06a9\u06cc\u062a/\u0627\u0633\u06a9\u0648\u062a\u0631",
+        "icon_url": "",
+        "old_meta_id": 46
+    }, {
+        "parent_slug": "vehicles",
+        "slug": "motorcycles",
+        "title": "\u0645\u0648\u062a\u0648\u0631\u0633\u06cc\u06a9\u0644\u062a \u0648 \u0644\u0648\u0627\u0632\u0645 \u062c\u0627\u0646\u0628\u06cc",
+        "icon_url": null,
+        "old_meta_id": 73
+    }, {
+        "parent_slug": "jobs",
+        "slug": "accounting-finance-legal",
+        "title": "\u0645\u0627\u0644\u06cc \u0648 \u062d\u0633\u0627\u0628\u062f\u0627\u0631\u06cc \u0648 \u062d\u0642\u0648\u0642\u06cc",
+        "icon_url": "",
+        "old_meta_id": 195
+    }, {
+        "parent_slug": "leisure-hobbies",
+        "slug": "animals",
+        "title": "\u062d\u06cc\u0648\u0627\u0646\u0627\u062a",
+        "icon_url": "",
+        "old_meta_id": 47
+    }, {
+        "parent_slug": "services",
+        "slug": "accounting-and-finance",
+        "title": "\u0645\u0627\u0644\u06cc/\u062d\u0633\u0627\u0628\u062f\u0627\u0631\u06cc/\u0628\u06cc\u0645\u0647",
+        "icon_url": "",
+        "old_meta_id": 135
+    }, {
+        "parent_slug": "jobs",
+        "slug": "sales-marketing",
+        "title": "\u0628\u0627\u0632\u0627\u0631\u06cc\u0627\u0628\u06cc \u0648 \u0641\u0631\u0648\u0634",
+        "icon_url": "",
+        "old_meta_id": 196
+    }, {
+        "parent_slug": "leisure-hobbies",
+        "slug": "hobby-collectibles",
+        "title": "\u06a9\u0644\u06a9\u0633\u06cc\u0648\u0646 \u0648 \u0633\u0631\u06af\u0631\u0645\u06cc",
+        "icon_url": "",
+        "old_meta_id": 48
+    }, {
+        "parent_slug": "businesses",
+        "slug": "batch",
+        "title": "\u0639\u0645\u062f\u0647 \u0641\u0631\u0648\u0634\u06cc",
+        "icon_url": "",
+        "old_meta_id": 131
+    }, {
+        "parent_slug": "services",
+        "slug": "transport",
+        "title": "\u062d\u0645\u0644 \u0648 \u0646\u0642\u0644",
+        "icon_url": "",
+        "old_meta_id": 136
+    }, {
+        "parent_slug": "jobs",
+        "slug": "industrial-technology",
+        "title": "\u0635\u0646\u0639\u062a\u06cc \u0648 \u0641\u0646\u06cc \u0648 \u0645\u0647\u0646\u062f\u0633\u06cc",
+        "icon_url": "",
+        "old_meta_id": 197
+    }, {
+        "parent_slug": "services",
+        "slug": "craftsmen",
+        "title": "\u067e\u06cc\u0634\u0647 \u0648 \u0645\u0647\u0627\u0631\u062a",
+        "icon_url": "",
+        "old_meta_id": 137
+    }, {
+        "parent_slug": "jobs",
+        "slug": "education",
+        "title": "\u0622\u0645\u0648\u0632\u0634\u06cc",
+        "icon_url": "",
+        "old_meta_id": 198
+    }, {
+        "parent_slug": "leisure-hobbies",
+        "slug": "musical-instruments",
+        "title": "\u0622\u0644\u0627\u062a \u0645\u0648\u0633\u06cc\u0642\u06cc",
+        "icon_url": "",
+        "old_meta_id": 50
+    }, {
+        "parent_slug": "vehicles",
+        "slug": "boat",
+        "title": "\u0642\u0627\u06cc\u0642 \u0648 \u0644\u0648\u0627\u0632\u0645 \u062c\u0627\u0646\u0628\u06cc",
+        "icon_url": "",
+        "old_meta_id": 70
+    }, {
+        "parent_slug": "jobs",
+        "slug": "transportation",
+        "title": "\u062d\u0645\u0644 \u0648 \u0646\u0642\u0644",
+        "icon_url": "",
+        "old_meta_id": 199
+    }, {
+        "parent_slug": "leisure-hobbies",
+        "slug": "sport-leisure",
+        "title": "\u0648\u0631\u0632\u0634 \u0648 \u062a\u0646\u0627\u0633\u0628 \u0627\u0646\u062f\u0627\u0645",
+        "icon_url": "",
+        "old_meta_id": 51
+    }, {
+        "parent_slug": "services",
+        "slug": "beauty-and-haircare",
+        "title": "\u0622\u0631\u0627\u06cc\u0634\u06af\u0631\u06cc \u0648 \u0632\u06cc\u0628\u0627\u06cc\u06cc",
+        "icon_url": null,
+        "old_meta_id": 138
+    }, {
+        "parent_slug": "jobs",
+        "slug": "care-health-beauty",
+        "title": "\u062f\u0631\u0645\u0627\u0646\u06cc \u0648 \u0632\u06cc\u0628\u0627\u06cc\u06cc \u0648 \u0628\u0647\u062f\u0627\u0634\u062a\u06cc",
+        "icon_url": "",
+        "old_meta_id": 200
+    }, {
+        "parent_slug": "services",
+        "slug": "entertainment",
+        "title": "\u0633\u0631\u06af\u0631\u0645\u06cc",
+        "icon_url": "",
+        "old_meta_id": 139
+    }, {
+        "parent_slug": "leisure-hobbies",
+        "slug": "leisure-hobbies-toys",
+        "title": "\u0627\u0633\u0628\u0627\u0628\u200c \u0628\u0627\u0632\u06cc",
+        "icon_url": "",
+        "old_meta_id": 165
+    }, {
+        "parent_slug": "jobs",
+        "slug": "media-advertising",
+        "title": "\u0647\u0646\u0631\u06cc \u0648 \u0631\u0633\u0627\u0646\u0647",
+        "icon_url": "",
+        "old_meta_id": 201
+    }, {
+        "parent_slug": "services",
+        "slug": "cleaning",
+        "title": "\u0646\u0638\u0627\u0641\u062a",
+        "icon_url": "",
+        "old_meta_id": 140
+    }, {
+        "parent_slug": "services",
+        "slug": "garden-and-landscaping",
+        "title": "\u0628\u0627\u063a\u0628\u0627\u0646\u06cc \u0648 \u062f\u0631\u062e\u062a\u06a9\u0627\u0631\u06cc",
+        "icon_url": "",
+        "old_meta_id": 141
+    }, {
+        "parent_slug": "services",
+        "slug": "teaching",
+        "title": "\u0622\u0645\u0648\u0632\u0634\u06cc",
+        "icon_url": "",
+        "old_meta_id": 142
+    }, {
+        "parent_slug": "building-and-garden",
+        "slug": "bathroom-wc-sauna",
+        "title": "\u0633\u0631\u0648\u06cc\u0633 \u0628\u0647\u062f\u0627\u0634\u062a\u06cc \u0648 \u0633\u0648\u0646\u0627",
+        "icon_url": "",
+        "old_meta_id": 6
+    }, {
+        "parent_slug": "jewelry-and-watches",
+        "slug": "watches",
+        "title": "\u0633\u0627\u0639\u062a",
+        "icon_url": "",
+        "old_meta_id": 15
+    }, {
+        "parent_slug": "jewelry-and-watches",
+        "slug": "jewelry",
+        "title": "\u062c\u0648\u0627\u0647\u0631\u0627\u062a",
+        "icon_url": "",
+        "old_meta_id": 16
+    }, {
+        "parent_slug": "baby-and-toys",
+        "slug": "personal-toys",
+        "title": "\u0627\u0633\u0628\u0627\u0628 \u0628\u0627\u0632\u06cc",
+        "icon_url": "",
+        "old_meta_id": 20
+    }, {
+        "parent_slug": "baby-and-toys",
+        "slug": "strollers-and-accessories",
+        "title": "\u06a9\u0627\u0644\u0633\u06a9\u0647 \u0648 \u0644\u0648\u0627\u0632\u0645 \u062c\u0627\u0646\u0628\u06cc",
+        "icon_url": "",
+        "old_meta_id": 21
+    }, {
+        "parent_slug": "baby-and-toys",
+        "slug": "child-car-seat",
+        "title": "\u062a\u062e\u062a \u0648 \u0635\u0646\u062f\u0644\u06cc \u0628\u0686\u0647",
+        "icon_url": null,
+        "old_meta_id": 22
+    }, {
+        "parent_slug": "baby-and-toys",
+        "slug": "childrens-furniture",
+        "title": "\u0627\u0633\u0628\u0627\u0628 \u0648 \u0627\u062b\u0627\u062b \u0628\u0686\u0647",
+        "icon_url": null,
+        "old_meta_id": 23
+    }, {
+        "parent_slug": "computers",
+        "slug": "laptops",
+        "title": "\u0631\u0627\u06cc\u0627\u0646\u0647 \u0647\u0645\u0631\u0627\u0647",
+        "icon_url": "",
+        "old_meta_id": 26
+    }, {
+        "parent_slug": "audio-video",
+        "slug": "movies-and-music",
+        "title": "\u0641\u06cc\u0644\u0645 \u0648 \u0645\u0648\u0633\u06cc\u0642\u06cc",
+        "icon_url": "",
+        "old_meta_id": 31
+    }, {
+        "parent_slug": "ticket",
+        "slug": "concert",
+        "title": "\u06a9\u0646\u0633\u0631\u062a",
+        "icon_url": "",
+        "old_meta_id": 40
+    }, {
+        "parent_slug": "furniture-and-home-decore",
+        "slug": "antiques-and-art",
+        "title": "\u062a\u0632\u0626\u06cc\u0646\u06cc \u0648 \u0622\u062b\u0627\u0631 \u0647\u0646\u0631\u06cc",
+        "icon_url": "",
+        "old_meta_id": 52
+    }, {
+        "parent_slug": "furniture-and-home-decore",
+        "slug": "lighting",
+        "title": "\u0644\u0648\u0627\u0632\u0645 \u0631\u0648\u0634\u0646\u0627\u06cc\u06cc",
+        "icon_url": "",
+        "old_meta_id": 53
+    }, {
+        "parent_slug": "furniture-and-home-decore",
+        "slug": "tables-and-chairs",
+        "title": "\u0645\u06cc\u0632 \u0648 \u0635\u0646\u062f\u0644\u06cc",
+        "icon_url": "",
+        "old_meta_id": 54
+    }, {
+        "parent_slug": "furniture-and-home-decore",
+        "slug": "carpets",
+        "title": "\u0641\u0631\u0634 \u0648 \u06af\u0644\u06cc\u0645",
+        "icon_url": "",
+        "old_meta_id": 55
+    }, {
+        "parent_slug": "furniture-and-home-decore",
+        "slug": "storage",
+        "title": "\u06a9\u0645\u062f \u0648 \u0628\u0648\u0641\u0647",
+        "icon_url": "",
+        "old_meta_id": 56
+    }, {
+        "parent_slug": "furniture-and-home-decore",
+        "slug": "textile-ornaments",
+        "title": "\u067e\u0631\u062f\u0647 \u0648 \u0631\u0648\u0645\u06cc\u0632\u06cc",
+        "icon_url": "",
+        "old_meta_id": 57
+    }, {
+        "parent_slug": "furniture-and-home-decore",
+        "slug": "beds-bedroom",
+        "title": "\u062a\u062e\u062a \u0648 \u0627\u062a\u0627\u0642 \u062e\u0648\u0627\u0628",
+        "icon_url": "",
+        "old_meta_id": 58
+    }, {
+        "parent_slug": "furniture-and-home-decore",
+        "slug": "sofa-armchair",
+        "title": "\u0645\u0628\u0644\u0645\u0627\u0646 \u0648 \u0635\u0646\u062f\u0644\u06cc \u0631\u0627\u062d\u062a\u06cc",
+        "icon_url": "",
+        "old_meta_id": 59
+    }, {
+        "parent_slug": "furniture-and-home-decore",
+        "slug": "tv-and-stereo-furniture",
+        "title": "\u0645\u06cc\u0632 \u062a\u0644\u0648\u06cc\u0632\u06cc\u0648\u0646 \u0648 \u0648\u0633\u0627\u06cc\u0644 \u0633\u06cc\u0633\u062a\u0645 \u067e\u062e\u0634",
+        "icon_url": "",
+        "old_meta_id": 60
+    }, {
+        "parent_slug": "utensils-and-appliances",
+        "slug": "dishwasher",
+        "title": "\u0645\u0627\u0634\u06cc\u0646 \u0638\u0631\u0641\u0634\u0648\u06cc\u06cc",
+        "icon_url": "",
+        "old_meta_id": 61
+    }, {
+        "parent_slug": "utensils-and-appliances",
+        "slug": "fridge-and-freezer",
+        "title": "\u06cc\u062e\u0686\u0627\u0644 \u0648 \u0641\u0631\u06cc\u0632\u0631",
+        "icon_url": "",
+        "old_meta_id": 62
+    }, {
+        "parent_slug": "utensils-and-appliances",
+        "slug": "cookware-tableware",
+        "title": "\u0648\u0633\u0627\u06cc\u0644 \u0622\u0634\u067e\u0632\u06cc \u0648 \u063a\u0630\u0627\u062e\u0648\u0631\u06cc",
+        "icon_url": "",
+        "old_meta_id": 63
+    }, {
+        "parent_slug": "utensils-and-appliances",
+        "slug": "microwave-stove",
+        "title": "\u0645\u0627\u06cc\u06a9\u0631\u0648\u0648\u06cc\u0648 \u0648 \u06af\u0627\u0632",
+        "icon_url": "",
+        "old_meta_id": 64
+    }, {
+        "parent_slug": "utensils-and-appliances",
+        "slug": "washer-dryer",
+        "title": "\u0645\u0627\u0634\u06cc\u0646 \u0644\u0628\u0627\u0633\u0634\u0648\u06cc\u06cc \u0648 \u062e\u0634\u06a9 \u06a9\u0646\u0646\u062f\u0647",
+        "icon_url": "",
+        "old_meta_id": 65
+    }, {
+        "parent_slug": "musical-instruments",
+        "slug": "guitar-bass-amplifier",
+        "title": "\u06af\u06cc\u062a\u0627\u0631\u060c \u0628\u06cc\u0633 \u0648 \u0627\u0645\u067e\u0644\u06cc\u0641\u0627\u06cc\u0631",
+        "icon_url": "",
+        "old_meta_id": 95
+    }, {
+        "parent_slug": "hobby-collectibles",
+        "slug": "coin-stamp",
+        "title": "\u0633\u06a9\u0647\u060c \u062a\u0645\u0628\u0631 \u0648 \u0627\u0633\u06a9\u0646\u0627\u0633",
+        "icon_url": "",
+        "old_meta_id": 100
+    }, {
+        "parent_slug": "sport-leisure",
+        "slug": "ball-sports",
+        "title": "\u0648\u0631\u0632\u0634\u200c\u0647\u0627\u06cc \u062a\u0648\u067e\u06cc",
+        "icon_url": "",
+        "old_meta_id": 105
+    }, {
+        "parent_slug": "musical-instruments",
+        "slug": "wind",
+        "title": "\u0633\u0627\u0632\u0647\u0627\u06cc \u0628\u0627\u062f\u06cc",
+        "icon_url": "",
+        "old_meta_id": 116
+    }, {
+        "parent_slug": "mobile-tablet",
+        "slug": "mobile-phones",
+        "title": "\u0645\u0648\u0628\u0627\u06cc\u0644",
+        "icon_url": "",
+        "old_meta_id": 117
+    }, {
+        "parent_slug": "equipments-and-machinery",
+        "slug": "shop-and-cash",
+        "title": "\u0641\u0631\u0648\u0634\u06af\u0627\u0647 \u0648 \u0645\u063a\u0627\u0632\u0647",
+        "icon_url": "",
+        "old_meta_id": 126
+    }, {
+        "parent_slug": "event",
+        "slug": "for-sale",
+        "title": "\u062d\u0631\u0627\u062c",
+        "icon_url": "",
+        "old_meta_id": 154
+    }, {
+        "parent_slug": "volunteers",
+        "slug": "charity-aid",
+        "title": "\u062e\u06cc\u0631\u06cc\u0647 \u0648 \u06a9\u0645\u06a9 \u0631\u0633\u0627\u0646\u06cc",
+        "icon_url": "",
+        "old_meta_id": 158
+    }, {
+        "parent_slug": "teaching",
+        "slug": "foreign-language",
+        "title": "\u0632\u0628\u0627\u0646 \u062e\u0627\u0631\u062c\u06cc",
+        "icon_url": "",
+        "old_meta_id": 166
+    }, {
+        "parent_slug": "clothing-and-shoes",
+        "slug": "shoes-belt-bag",
+        "title": "\u06a9\u06cc\u0641/\u06a9\u0641\u0634/\u06a9\u0645\u0631\u0628\u0646\u062f",
+        "icon_url": null,
+        "old_meta_id": 174
+    }, {
+        "parent_slug": "clothing-and-shoes",
+        "slug": "clothing",
+        "title": "\u0644\u0628\u0627\u0633",
+        "icon_url": null,
+        "old_meta_id": 175
+    }, {
+        "parent_slug": "book-student-literature",
+        "slug": "educational",
+        "title": "\u0622\u0645\u0648\u0632\u0634\u06cc",
+        "icon_url": "",
+        "old_meta_id": 181
+    }, {
+        "parent_slug": "book-student-literature",
+        "slug": "literary",
+        "title": "\u0627\u062f\u0628\u06cc",
+        "icon_url": "",
+        "old_meta_id": 183
+    }, {
+        "parent_slug": "utility",
+        "slug": "instrument-cleaning-tailoring",
+        "title": "\u0646\u0638\u0627\u0641\u062a \u0648 \u062e\u06cc\u0627\u0637\u06cc \u0648 \u0627\u062a\u0648",
+        "icon_url": "",
+        "old_meta_id": 187
+    }, {
+        "parent_slug": "computer-and-mobile",
+        "slug": "domains-and-websites",
+        "title": "\u0641\u0631\u0648\u0634 \u062f\u0627\u0645\u0646\u0647 \u0648 \u0633\u0627\u06cc\u062a",
+        "icon_url": "",
+        "old_meta_id": 204
+    }, {
+        "parent_slug": "residential-sell",
+        "slug": "apartment-sell",
+        "title": "\u0622\u067e\u0627\u0631\u062a\u0645\u0627\u0646",
+        "icon_url": null,
+        "old_meta_id": 210
+    }, {
+        "parent_slug": "residential-rent",
+        "slug": "apartment-rent",
+        "title": "\u0622\u067e\u0627\u0631\u062a\u0645\u0627\u0646",
+        "icon_url": null,
+        "old_meta_id": 214
+    }, {
+        "parent_slug": "commercial-sell",
+        "slug": "office-sell",
+        "title": "\u062f\u0641\u062a\u0631 \u06a9\u0627\u0631\u060c \u0627\u062a\u0627\u0642 \u0627\u062f\u0627\u0631\u06cc \u0648 \u0645\u0637\u0628",
+        "icon_url": null,
+        "old_meta_id": 218
+    }, {
+        "parent_slug": "commercial-rent",
+        "slug": "office-rent",
+        "title": "\u062f\u0641\u062a\u0631 \u06a9\u0627\u0631\u060c \u0627\u062a\u0627\u0642 \u0627\u062f\u0627\u0631\u06cc \u0648 \u0645\u0637\u0628",
+        "icon_url": null,
+        "old_meta_id": 222
+    }, {
+        "parent_slug": "real-estate-services",
+        "slug": "agency",
+        "title": "\u0622\u0698\u0627\u0646\u0633 \u0627\u0645\u0644\u0627\u06a9",
+        "icon_url": "",
+        "old_meta_id": 225
+    }, {
+        "parent_slug": "cars",
+        "slug": "light",
+        "title": "\u0633\u0648\u0627\u0631\u06cc",
+        "icon_url": null,
+        "old_meta_id": 230
+    }, {
+        "parent_slug": "computers",
+        "slug": "desktops",
+        "title": "\u0631\u0627\u06cc\u0627\u0646\u0647 \u0631\u0648\u0645\u06cc\u0632\u06cc",
+        "icon_url": "",
+        "old_meta_id": 25
+    }, {
+        "parent_slug": "audio-video",
+        "slug": "camera-camcoders",
+        "title": "\u062f\u0648\u0631\u0628\u06cc\u0646 \u0639\u06a9\u0627\u0633\u06cc \u0648 \u0641\u06cc\u0644\u0645\u200c\u0628\u0631\u062f\u0627\u0631\u06cc",
+        "icon_url": "",
+        "old_meta_id": 32
+    }, {
+        "parent_slug": "ticket",
+        "slug": "theatre-and-cinema",
+        "title": "\u062a\u0626\u0627\u062a\u0631 \u0648 \u0633\u06cc\u0646\u0645\u0627",
+        "icon_url": "",
+        "old_meta_id": 41
+    }, {
+        "parent_slug": "animals",
+        "slug": "cat",
+        "title": "\u06af\u0631\u0628\u0647",
+        "icon_url": "",
+        "old_meta_id": 86
+    }, {
+        "parent_slug": "musical-instruments",
+        "slug": "piano-keyboard",
+        "title": "\u067e\u06cc\u0627\u0646\u0648/\u06a9\u06cc\u0628\u0648\u0631\u062f/\u0622\u06a9\u0627\u0631\u062f\u0626\u0648\u0646",
+        "icon_url": "",
+        "old_meta_id": 96
+    }, {
+        "parent_slug": "sport-leisure",
+        "slug": "camping-outdoor",
+        "title": "\u06a9\u0648\u0647\u0646\u0648\u0631\u062f\u06cc \u0648 \u06a9\u0645\u067e\u06cc\u0646\u06af",
+        "icon_url": "",
+        "old_meta_id": 106
+    }, {
+        "parent_slug": "mobile-tablet",
+        "slug": "tablet",
+        "title": "\u062a\u0628\u0644\u062a",
+        "icon_url": "",
+        "old_meta_id": 118
+    }, {
+        "parent_slug": "equipments-and-machinery",
+        "slug": "barbershop-and-beautysalon",
+        "title": "\u0622\u0631\u0627\u06cc\u0634\u06af\u0627\u0647 \u0648 \u0633\u0627\u0644\u0646\u200c\u0647\u0627\u06cc \u0632\u06cc\u0628\u0627\u06cc\u06cc",
+        "icon_url": "",
+        "old_meta_id": 127
+    }, {
+        "parent_slug": "event",
+        "slug": "conference-meeting",
+        "title": "\u06af\u0631\u062f\u0647\u0645\u0627\u06cc\u06cc \u0648 \u0647\u0645\u0627\u06cc\u0634",
+        "icon_url": "",
+        "old_meta_id": 155
+    }, {
+        "parent_slug": "volunteers",
+        "slug": "research",
+        "title": "\u062a\u062d\u0642\u06cc\u0642\u0627\u062a\u06cc",
+        "icon_url": "",
+        "old_meta_id": 159
+    }, {
+        "parent_slug": "teaching",
+        "slug": "school",
+        "title": "\u062f\u0631\u0648\u0633 \u0645\u062f\u0631\u0633\u0647 \u0648 \u062f\u0627\u0646\u0634\u06af\u0627\u0647",
+        "icon_url": "",
+        "old_meta_id": 167
+    }, {
+        "parent_slug": "jewelry-and-watches",
+        "slug": "rhinestones",
+        "title": "\u0628\u062f\u0644\u06cc\u062c\u0627\u062a",
+        "icon_url": "",
+        "old_meta_id": 172
+    }, {
+        "parent_slug": "utility",
+        "slug": "repair-tool",
+        "title": "\u062a\u0639\u0645\u06cc\u0631\u0627\u062a",
+        "icon_url": "",
+        "old_meta_id": 188
+    }, {
+        "parent_slug": "computer-and-mobile",
+        "slug": "hosting-and-web-design",
+        "title": "\u0645\u06cc\u0632\u0628\u0627\u0646\u06cc \u0648 \u0637\u0631\u0627\u062d\u06cc \u0633\u0627\u06cc\u062a",
+        "icon_url": "",
+        "old_meta_id": 205
+    }, {
+        "parent_slug": "residential-sell",
+        "slug": "house-villa-sell",
+        "title": "\u062e\u0627\u0646\u0647 \u0648 \u0648\u06cc\u0644\u0627",
+        "icon_url": null,
+        "old_meta_id": 211
+    }, {
+        "parent_slug": "residential-rent",
+        "slug": "house-villa-rent",
+        "title": "\u062e\u0627\u0646\u0647 \u0648 \u0648\u06cc\u0644\u0627",
+        "icon_url": null,
+        "old_meta_id": 215
+    }, {
+        "parent_slug": "commercial-sell",
+        "slug": "shop-sell",
+        "title": "\u0645\u063a\u0627\u0632\u0647 \u0648 \u063a\u0631\u0641\u0647",
+        "icon_url": null,
+        "old_meta_id": 219
+    }, {
+        "parent_slug": "commercial-rent",
+        "slug": "shop-rent",
+        "title": "\u0645\u063a\u0627\u0632\u0647 \u0648 \u063a\u0631\u0641\u0647",
+        "icon_url": null,
+        "old_meta_id": 223
+    }, {
+        "parent_slug": "real-estate-services",
+        "slug": "partnership",
+        "title": "\u0645\u0634\u0627\u0631\u06a9\u062a \u062f\u0631 \u0633\u0627\u062e\u062a",
+        "icon_url": "",
+        "old_meta_id": 226
+    }, {
+        "parent_slug": "building-and-garden",
+        "slug": "stove-and-heating",
+        "title": "\u0633\u06cc\u0633\u062a\u0645 \u06af\u0631\u0645\u0627\u06cc\u0634\u06cc \u0633\u0631\u0645\u0627\u06cc\u0634\u06cc \u0648 \u06af\u0627\u0632",
+        "icon_url": "",
+        "old_meta_id": 8
+    }, {
+        "parent_slug": "audio-video",
+        "slug": "mp3-player",
+        "title": "\u067e\u062e\u0634\u200c\u06a9\u0646\u0646\u062f\u0647 \u0647\u0645\u0631\u0627\u0647",
+        "icon_url": "",
+        "old_meta_id": 33
+    }, {
+        "parent_slug": "ticket",
+        "slug": "gift-certificate",
+        "title": "\u06a9\u0627\u0631\u062a \u0647\u062f\u06cc\u0647 \u0648 \u062a\u062e\u0641\u06cc\u0641",
+        "icon_url": "",
+        "old_meta_id": 42
+    }, {
+        "parent_slug": "animals",
+        "slug": "rodents-rabbits",
+        "title": "\u0645\u0648\u0634 \u0648 \u062e\u0631\u06af\u0648\u0634",
+        "icon_url": "",
+        "old_meta_id": 87
+    }, {
+        "parent_slug": "sport-leisure",
+        "slug": "diving-watersports",
+        "title": "\u063a\u0648\u0627\u0635\u06cc \u0648 \u0648\u0631\u0632\u0634\u200c\u0647\u0627\u06cc \u0622\u0628\u06cc",
+        "icon_url": "",
+        "old_meta_id": 107
+    }, {
+        "parent_slug": "mobile-tablet",
+        "slug": "mobile-tablet-accessories",
+        "title": "\u0644\u0648\u0627\u0632\u0645 \u062c\u0627\u0646\u0628\u06cc \u0645\u0648\u0628\u0627\u06cc\u0644 \u0648 \u062a\u0628\u0644\u062a",
+        "icon_url": "",
+        "old_meta_id": 119
+    }, {
+        "parent_slug": "equipments-and-machinery",
+        "slug": "offices",
+        "title": "\u062f\u0641\u062a\u0631 \u06a9\u0627\u0631",
+        "icon_url": "",
+        "old_meta_id": 128
+    }, {
+        "parent_slug": "event",
+        "slug": "music-theater",
+        "title": "\u0645\u0648\u0633\u06cc\u0642\u06cc \u0648 \u062a\u0626\u0627\u062a\u0631",
+        "icon_url": "",
+        "old_meta_id": 156
+    }, {
+        "parent_slug": "teaching",
+        "slug": "software",
+        "title": "\u0646\u0631\u0645\u200c\u0627\u0641\u0632\u0627\u0631",
+        "icon_url": "",
+        "old_meta_id": 168
+    }, {
+        "parent_slug": "computers",
+        "slug": "parts-and-accessories",
+        "title": "\u0642\u0637\u0639\u0627\u062a \u0648 \u0644\u0648\u0627\u0632\u0645 \u062c\u0627\u0646\u0628\u06cc",
+        "icon_url": "",
+        "old_meta_id": 177
+    }, {
+        "parent_slug": "book-student-literature",
+        "slug": "historical",
+        "title": "\u062a\u0627\u0631\u06cc\u062e\u06cc",
+        "icon_url": "",
+        "old_meta_id": 182
+    }, {
+        "parent_slug": "sport-leisure",
+        "slug": "fishing",
+        "title": "\u0645\u0627\u0647\u06cc\u06af\u06cc\u0631\u06cc",
+        "icon_url": "",
+        "old_meta_id": 190
+    }, {
+        "parent_slug": "computer-and-mobile",
+        "slug": "broadband-internet-service",
+        "title": "\u062e\u062f\u0645\u0627\u062a \u067e\u0647\u0646\u0627\u06cc \u0628\u0627\u0646\u062f \u0627\u06cc\u0646\u062a\u0631\u0646\u062a",
+        "icon_url": "",
+        "old_meta_id": 206
+    }, {
+        "parent_slug": "residential-sell",
+        "slug": "plot-old",
+        "title": "\u0632\u0645\u06cc\u0646 \u0648 \u06a9\u0644\u0646\u06af\u06cc",
+        "icon_url": null,
+        "old_meta_id": 212
+    }, {
+        "parent_slug": "commercial-sell",
+        "slug": "industry-agriculture-business-sell",
+        "title": "\u0635\u0646\u0639\u062a\u06cc\u060c \u06a9\u0634\u0627\u0648\u0631\u0632\u06cc \u0648 \u062a\u062c\u0627\u0631\u06cc",
+        "icon_url": null,
+        "old_meta_id": 220
+    }, {
+        "parent_slug": "commercial-rent",
+        "slug": "industry-agriculture-business-rent",
+        "title": "\u0635\u0646\u0639\u062a\u06cc\u060c \u06a9\u0634\u0627\u0648\u0631\u0632\u06cc \u0648 \u062a\u062c\u0627\u0631\u06cc",
+        "icon_url": null,
+        "old_meta_id": 224
+    }, {
+        "parent_slug": "real-estate-services",
+        "slug": "financial-legal",
+        "title": "\u0627\u0645\u0648\u0631 \u0645\u0627\u0644\u06cc \u0648 \u062d\u0642\u0648\u0642\u06cc",
+        "icon_url": "",
+        "old_meta_id": 227
+    }, {
+        "parent_slug": "ticket",
+        "slug": "tickets-sports",
+        "title": "\u0627\u0645\u0627\u06a9\u0646 \u0648 \u0645\u0633\u0627\u0628\u0642\u0627\u062a \u0648\u0631\u0632\u0634\u06cc",
+        "icon_url": "",
+        "old_meta_id": 180
+    }, {
+        "parent_slug": "real-estate-services",
+        "slug": "presell",
+        "title": "\u067e\u06cc\u0634\u200c\u0641\u0631\u0648\u0634",
+        "icon_url": "",
+        "old_meta_id": 229
+    }, {
+        "parent_slug": "building-and-garden",
+        "slug": "kitchen",
+        "title": "\u0622\u0634\u067e\u0632\u062e\u0627\u0646\u0647",
+        "icon_url": "",
+        "old_meta_id": 9
+    }, {
+        "parent_slug": "audio-video",
+        "slug": "stereo-surround",
+        "title": "\u0633\u06cc\u0633\u062a\u0645 \u0635\u0648\u062a\u06cc \u062e\u0627\u0646\u06af\u06cc",
+        "icon_url": "",
+        "old_meta_id": 34
+    }, {
+        "parent_slug": "ticket",
+        "slug": "sport",
+        "title": "\u0648\u0631\u0632\u0634\u06cc",
+        "icon_url": "",
+        "old_meta_id": 43
+    }, {
+        "parent_slug": "animals",
+        "slug": "reptile",
+        "title": "\u062e\u0632\u0646\u062f\u0647",
+        "icon_url": "",
+        "old_meta_id": 88
+    }, {
+        "parent_slug": "musical-instruments",
+        "slug": "traditional",
+        "title": "\u0633\u0646\u062a\u06cc",
+        "icon_url": "",
+        "old_meta_id": 98
+    }, {
+        "parent_slug": "equipments-and-machinery",
+        "slug": "industrial",
+        "title": "\u0635\u0646\u0639\u062a\u06cc",
+        "icon_url": "",
+        "old_meta_id": 129
+    }, {
+        "parent_slug": "event",
+        "slug": "events-sports",
+        "title": "\u0648\u0631\u0632\u0634\u06cc",
+        "icon_url": "",
+        "old_meta_id": 157
+    }, {
+        "parent_slug": "teaching",
+        "slug": "art",
+        "title": "\u0647\u0646\u0631\u06cc",
+        "icon_url": "",
+        "old_meta_id": 169
+    }, {
+        "parent_slug": "computers",
+        "slug": "modem-and-network-equipment",
+        "title": "\u0644\u0648\u0627\u0632\u0645 \u0648 \u062a\u062c\u0647\u06cc\u0632\u0627\u062a \u0634\u0628\u06a9\u0647",
+        "icon_url": "",
+        "old_meta_id": 178
+    }, {
+        "parent_slug": "ticket",
+        "slug": "bus-metro-train",
+        "title": "\u0627\u062a\u0648\u0628\u0648\u0633\u060c \u0645\u062a\u0631\u0648 \u0648 \u0642\u0637\u0627\u0631",
+        "icon_url": "",
+        "old_meta_id": 179
+    }, {
+        "parent_slug": "book-student-literature",
+        "slug": "religious",
+        "title": "\u0645\u0630\u0647\u0628\u06cc",
+        "icon_url": "",
+        "old_meta_id": 184
+    }, {
+        "parent_slug": "computer-and-mobile",
+        "slug": "computer-hardware-and-software",
+        "title": "\u062e\u062f\u0645\u0627\u062a \u0646\u0631\u0645\u200c\u0627\u0641\u0632\u0627\u0631 \u0648 \u0633\u062e\u062a\u200c\u0627\u0641\u0632\u0627\u0631 \u06a9\u0627\u0645\u067e\u06cc\u0648\u062a\u0631",
+        "icon_url": "",
+        "old_meta_id": 207
+    }, {
+        "parent_slug": "building-and-garden",
+        "slug": "garden-and-patio",
+        "title": "\u062d\u06cc\u0627\u0637 \u0648 \u0627\u06cc\u0648\u0627\u0646",
+        "icon_url": "",
+        "old_meta_id": 10
+    }, {
+        "parent_slug": "audio-video",
+        "slug": "video-dvdplayer",
+        "title": "\u0648\u06cc\u062f\u0626\u0648 \u0648 \u067e\u062e\u0634 \u06a9\u0646\u0646\u062f\u0647 DVD",
+        "icon_url": "",
+        "old_meta_id": 35
+    }, {
+        "parent_slug": "animals",
+        "slug": "birds",
+        "title": "\u067e\u0631\u0646\u062f\u0647",
+        "icon_url": "",
+        "old_meta_id": 89
+    }, {
+        "parent_slug": "hobby-collectibles",
+        "slug": "historical-objects",
+        "title": "\u0627\u0634\u06cc\u0627\u06cc \u0639\u062a\u06cc\u0642\u0647",
+        "icon_url": "",
+        "old_meta_id": 104
+    }, {
+        "parent_slug": "sport-leisure",
+        "slug": "training",
+        "title": "\u062a\u062c\u0647\u06cc\u0632\u0627\u062a \u0648\u0631\u0632\u0634\u06cc",
+        "icon_url": "",
+        "old_meta_id": 109
+    }, {
+        "parent_slug": "mobile-tablet",
+        "slug": "sim-card",
+        "title": "\u0633\u06cc\u0645\u200c\u06a9\u0627\u0631\u062a",
+        "icon_url": "",
+        "old_meta_id": 120
+    }, {
+        "parent_slug": "equipments-and-machinery",
+        "slug": "cafe-and-restaurant",
+        "title": "\u06a9\u0627\u0641\u06cc\u200c\u0634\u0627\u067e \u0648 \u0631\u0633\u062a\u0648\u0631\u0627\u0646",
+        "icon_url": "",
+        "old_meta_id": 130
+    }, {
+        "parent_slug": "teaching",
+        "slug": "services-sports",
+        "title": "\u062e\u062f\u0645\u0627\u062a \u0648\u0631\u0632\u0634\u06cc",
+        "icon_url": "",
+        "old_meta_id": 170
+    }, {
+        "parent_slug": "computers",
+        "slug": "printer-scaner-copier",
+        "title": "\u067e\u0631\u06cc\u0646\u062a\u0631/\u0627\u0633\u06a9\u0646\u0631/\u06a9\u067e\u06cc/\u0641\u06a9\u0633",
+        "icon_url": "",
+        "old_meta_id": 176
+    }, {
+        "parent_slug": "computer-and-mobile",
+        "slug": "mobile-phone-repair",
+        "title": "\u062a\u0639\u0645\u06cc\u0631\u0627\u062a \u0646\u0631\u0645\u200c\u0627\u0641\u0632\u0627\u0631 \u0648 \u0633\u062e\u062a\u200c\u0627\u0641\u0632\u0627\u0631 \u06af\u0648\u0634\u06cc \u0645\u0648\u0628\u0627\u06cc\u0644",
+        "icon_url": "",
+        "old_meta_id": 208
+    }, {
+        "parent_slug": "building-and-garden",
+        "slug": "garden-tools",
+        "title": "\u0627\u0628\u0632\u0627\u0631 \u0628\u0627\u063a\u0628\u0627\u0646\u06cc",
+        "icon_url": "",
+        "old_meta_id": 11
+    }, {
+        "parent_slug": "audio-video",
+        "slug": "tv-projector",
+        "title": "\u062a\u0644\u0648\u06cc\u0632\u06cc\u0648\u0646 \u0648 \u067e\u0631\u0648\u0698\u06a9\u062a\u0648\u0631",
+        "icon_url": "",
+        "old_meta_id": 36
+    }, {
+        "parent_slug": "animals",
+        "slug": "fish",
+        "title": "\u0645\u0627\u0647\u06cc \u0648 \u0622\u06a9\u0648\u0627\u0631\u06cc\u0648\u0645",
+        "icon_url": null,
+        "old_meta_id": 90
+    }, {
+        "parent_slug": "musical-instruments",
+        "slug": "drums-percussion",
+        "title": "\u062f\u0631\u0627\u0645 \u067e\u0631\u06a9\u0627\u0634\u0646",
+        "icon_url": "",
+        "old_meta_id": 99
+    }, {
+        "parent_slug": "sport-leisure",
+        "slug": "winter-sports",
+        "title": "\u0648\u0631\u0632\u0634\u200c\u0647\u0627\u06cc \u0632\u0645\u0633\u062a\u0627\u0646\u06cc",
+        "icon_url": "",
+        "old_meta_id": 110
+    }, {
+        "parent_slug": "teaching",
+        "slug": "consulting",
+        "title": "\u0645\u0634\u0627\u0648\u0631\u0647 \u062a\u062d\u0635\u06cc\u0644\u06cc",
+        "icon_url": "",
+        "old_meta_id": 171
+    }, {
+        "parent_slug": "book-student-literature",
+        "slug": "magazines",
+        "title": "\u0645\u062c\u0644\u0627\u062a",
+        "icon_url": "",
+        "old_meta_id": 185
+    }, {
+        "parent_slug": "sport-leisure",
+        "slug": "horses-equestrian",
+        "title": "\u0627\u0633\u0628 \u0648 \u062a\u062c\u0647\u06cc\u0632\u0627\u062a \u0627\u0633\u0628 \u0633\u0648\u0627\u0631\u06cc",
+        "icon_url": "",
+        "old_meta_id": 111
+    }, {
+        "parent_slug": "animals",
+        "slug": "accessories",
+        "title": "\u0644\u0648\u0627\u0632\u0645 \u062c\u0627\u0646\u0628\u06cc",
+        "icon_url": "",
+        "old_meta_id": 91
+    }, {
+        "parent_slug": "musical-instruments",
+        "slug": "violins",
+        "title": "\u0648\u06cc\u0648\u0644\u0646",
+        "icon_url": "",
+        "old_meta_id": 164
+    }, {
+        "parent_slug": "animals",
+        "slug": "farm-animals",
+        "title": "\u062d\u06cc\u0648\u0627\u0646\u0627\u062a \u0645\u0632\u0631\u0639\u0647",
+        "icon_url": "",
+        "old_meta_id": 92
+    }, {
+        "parent_slug": "cars",
+        "slug": "rental",
+        "title": "\u0627\u062c\u0627\u0631\u0647\u200c\u0627\u06cc",
+        "icon_url": null,
+        "old_meta_id": 234
+    }, {
+        "parent_slug": "cars",
+        "slug": "classic",
+        "title": "\u06a9\u0644\u0627\u0633\u06cc\u06a9",
+        "icon_url": null,
+        "old_meta_id": 235
+    }, {
+        "parent_slug": "cars",
+        "slug": "heavy",
+        "title": "\u0633\u0646\u06af\u06cc\u0646",
+        "icon_url": null,
+        "old_meta_id": 231
+    }, {
+        "parent_slug": "community",
+        "slug": "lost-and-found",
+        "title": "\u06af\u0645\u200c\u0634\u062f\u0647\u200c\u0647\u0627",
+        "icon_url": null,
+        "old_meta_id": 236
+    }, {
+        "parent_slug": "lost-and-found",
+        "slug": "lost-animals",
+        "title": "\u062d\u06cc\u0648\u0627\u0646\u0627\u062a",
+        "icon_url": null,
+        "old_meta_id": 238
+    }, {
+        "parent_slug": "lost-and-found",
+        "slug": "lost-things",
+        "title": "\u0627\u0634\u06cc\u0627",
+        "icon_url": null,
+        "old_meta_id": 239
+    }, {
+        "parent_slug": "animals",
+        "slug": "dog",
+        "title": "\u0633\u06af",
+        "icon_url": null,
+        "old_meta_id": 240
+    }, {
+        "parent_slug": "audio-video",
+        "slug": "CCTV",
+        "title": "\u062f\u0648\u0631\u0628\u06cc\u0646 \u0645\u062f\u0627\u0631\u0628\u0633\u062a\u0647",
+        "icon_url": null,
+        "old_meta_id": 241
+    }, {
+        "parent_slug": "personal",
+        "slug": "stationery",
+        "title": "\u0644\u0648\u0627\u0632\u0645 \u0627\u0644\u062a\u062d\u0631\u06cc\u0631",
+        "icon_url": null,
+        "old_meta_id": 244
+    }, {
+        "parent_slug": "equipments-and-machinery",
+        "slug": "medical-equipment",
+        "title": "\u067e\u0632\u0634\u06a9\u06cc",
+        "icon_url": null,
+        "old_meta_id": 242
+    }, {
+        "parent_slug": "real-estate",
+        "slug": "commercial-rent",
+        "title": "\u0627\u062c\u0627\u0631\u0647 \u0627\u062f\u0627\u0631\u06cc \u0648 \u062a\u062c\u0627\u0631\u06cc (\u0645\u063a\u0627\u0632\u0647\u060c \u062f\u0641\u062a\u0631 \u06a9\u0627\u0631\u060c \u0635\u0646\u0639\u062a\u06cc)",
+        "icon_url": null,
+        "old_meta_id": 221
+    }, {
+        "parent_slug": "real-estate",
+        "slug": "temporary-rent",
+        "title": "\u0627\u062c\u0627\u0631\u0647 \u06a9\u0648\u062a\u0627\u0647 \u0645\u062f\u062a",
+        "icon_url": null,
+        "old_meta_id": 245
+    }, {
+        "parent_slug": "temporary-rent",
+        "slug": "suite-apartment",
+        "title": "\u0622\u067e\u0627\u0631\u062a\u0645\u0627\u0646 \u0648 \u0633\u0648\u0626\u06cc\u062a",
+        "icon_url": null,
+        "old_meta_id": 246
+    }, {
+        "parent_slug": "temporary-rent",
+        "slug": "villa",
+        "title": "\u0648\u06cc\u0644\u0627 \u0648 \u0628\u0627\u063a",
+        "icon_url": null,
+        "old_meta_id": 247
+    }, {
+        "parent_slug": "temporary-rent",
+        "slug": "workspace",
+        "title": "\u062f\u0641\u062a\u0631 \u06a9\u0627\u0631 \u0648 \u0641\u0636\u0627\u06cc \u0622\u0645\u0648\u0632\u0634\u06cc",
+        "icon_url": null,
+        "old_meta_id": 248
+    }, {
+        "parent_slug": "real-estate",
+        "slug": "real-estate-services",
+        "title": "\u062e\u062f\u0645\u0627\u062a \u0627\u0645\u0644\u0627\u06a9",
+        "icon_url": null,
+        "old_meta_id": 150
+    }]
+}

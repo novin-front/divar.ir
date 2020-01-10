@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import {
   Container,
   Row,
@@ -11,122 +11,55 @@ import {
   Label,
   Input
 } from "reactstrap";
-import { Link } from 'react-router-dom';
+import {connect} from 'react-redux'
+import WidgetItem from './widgetItem';
 
-export default function PostContainer() {
+function PostContainer({ widgetList, Categoryes, fetchAdvertise, fetchCategories,}) {
+  useEffect(() => {
+  
+  }, [widgetList.length > 0]);
+  const RenderAdvertisingList = ()=>{
+
+    if (widgetList.length > 0){
+      return(
+        widgetList.map((item, index) => {
+          return (
+            <WidgetItem key={index} data={item.data} />
+          )
+        })
+      )
+    }
+  }
     return (
       <section className="post-Container">
-        <div className="browse-post-list">
-
-          <Link className="col-xs-12 col-sm-6 col-xl-4 post-list-card" to="/view">
-            <div className="post-list-card__content">
-              <h4 className="post-list-card__title">
-                صندلی سیلور تالاری تالار مجلسی
-              </h4>
-              <div className="post-list-card__description">
-                ۲۱,۰۰۰,۰۰۰ تومان
-              </div>
-              <div className="post-list-card__info">
-                <span className="post-list-card__info-label">
-                  لحظاتی پیش در نارمک
-                </span>
-                <span className="post-list-card__info-chat">
-                  <i className="fa fa-comments-o px-2"></i>
-                </span>
-              </div>
-            </div>
-            <div className="post-list-card__image">
-              <img
-                src="https://s101.divarcdn.com/static/thumbnails/1578241570/gXJkbnn4.jpg"
-                className="post-card__image img-fluid rounded"
-                alt="صابون زغال اورکلین EVER CLEAN"
-                title="صابون زغال اورکلین EVER CLEAN"
-              />
-            </div>
-          </Link>
-
-
-          <Link className="col-xs-12 col-sm-6 col-xl-4 post-list-card" to="/view">
-            <div className="post-list-card__content">
-              <h4 className="post-list-card__title">
-                صندلی سیلور تالاری تالار مجلسی
-              </h4>
-              <div className="post-list-card__description">
-                ۲۱,۰۰۰,۰۰۰ تومان
-              </div>
-              <div className="post-list-card__info">
-                <span className="post-list-card__info-label">
-                  لحظاتی پیش در نارمک
-                </span>
-                <span className="post-list-card__info-chat">
-                  <i className="fa fa-comments-o px-2"></i>
-                </span>
-              </div>
-            </div>
-            <div className="post-list-card__image">
-              <img
-                src="https://s101.divarcdn.com/static/thumbnails/1578241574/gXMEYObY.jpg"
-                className="post-card__image mg-fluid rounded"
-                alt="صابون زغال اورکلین EVER CLEAN"
-                title="صابون زغال اورکلین EVER CLEAN"
-              />
-            </div>
-          </Link>
-
-          <Link className="col-xs-12 col-sm-6 col-xl-4 post-list-card" to="/view">
-            <div className="post-list-card__content">
-              <h4 className="post-list-card__title">
-                صندلی سیلور تالاری تالار مجلسی
-              </h4>
-              <div className="post-list-card__description">
-                ۲۱,۰۰۰,۰۰۰ تومان
-              </div>
-              <div className="post-list-card__info">
-                <span className="post-list-card__info-label">
-                  لحظاتی پیش در نارمک
-                </span>
-                <span className="post-list-card__info-chat">
-                  <i className="fa fa-comments-o px-2"></i>
-                </span>
-              </div>
-            </div>
-            <div className="post-list-card__image">
-              <img
-                src="https://s101.divarcdn.com/static/thumbnails/1578241574/gXMEYObY.jpg"
-                className="post-card__image mg-fluid rounded"
-                alt="صابون زغال اورکلین EVER CLEAN"
-                onError="this.style.display='none'"
-              />
-            </div>
-          </Link>
-
-          <Link className="col-xs-12 col-sm-6 col-xl-4 post-list-card" to="/view">
-            <div className="post-list-card__content">
-              <h4 className="post-list-card__title">
-                صندلی سیلور تالاری تالار مجلسی
-              </h4>
-              <div className="post-list-card__description">
-                ۲۱,۰۰۰,۰۰۰ تومان
-              </div>
-              <div className="post-list-card__info">
-                <span className="post-list-card__info-label">
-                  لحظاتی پیش در نارمک
-                </span>
-                <span className="post-list-card__info-chat">
-                  <i className="grey comments outline large icon"></i>
-                </span>
-              </div>
-            </div>
-            <div className="post-list-card__image">
-              <img
-                src="https://s101.divarcdn.com/static/thumbnails/1578241574/gXMEYObY.jpg"
-                className="post-card__image mg-fluid rounded"
-                alt="صابون زغال اورکلین EVER CLEAN"
-                title="صابون زغال اورکلین EVER CLEAN"
-              />
-            </div>
-          </Link>
+        <div className="browse-post-list">       
+          {RenderAdvertisingList()}
         </div>
       </section>
     );
 }
+const mapDispatchToProps = (dispatch) => {
+  return {
+    fetchAdvertise: (payload) => {
+      dispatch({
+        type: "GET_ADVERTISING_DATA",
+        payload
+      })
+    },
+    fetchCategories: (payload) => {
+      dispatch({
+        type: "GET_ALL_CATEGORYES_DATA",
+        payload
+      })
+    }
+  }
+}
+
+const mapStateToProps = (state) => {
+  let { DivarApi} =state;
+  return {
+    widgetList: DivarApi.AdvertisingList,
+    Categoryes: DivarApi.AllCategory,
+  }
+}
+export default connect(mapStateToProps, mapDispatchToProps)(PostContainer)

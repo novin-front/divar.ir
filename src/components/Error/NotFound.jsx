@@ -25,7 +25,7 @@ export default function NotFound() {
                         <div className="title-not-found-wrapper-p">
                            این راه به جایی نمیرسد!
                        </div>
-                        <div class="title-not-found-wrapper-p">برای پیدا کردن مسیر درست می‌توانید سری به <Link to="/"> صفحه اول دیوار </Link> بزنید</div>
+                        <div className="title-not-found-wrapper-p">برای پیدا کردن مسیر درست می‌توانید سری به <Link to="/"> صفحه اول دیوار </Link> بزنید</div>
                    </Col>
                </Row>
            </Container>

@@ -8,15 +8,29 @@ export default function Wrapper() {
         return routes.map((prop, key) => {
 
             if (prop.render === true) {
+                console.log("prop.parentRoute === null", prop.parentRoute === null)
+                if (prop.parentRoute === null){
+                    console.log("prop.path", prop.path + `/:${'tehran'}`)
 
-                return (
-                    <Route
-                        exact
-                        path={prop.path}
-                        render={props => <prop.component {...props} />}
-                        key={key}
-                    />
-                );
+                    return (
+                        <Route
+                            exact
+                            path={prop.path }
+                            render={props => <prop.component {...props} />}
+                            key={key}
+                        />
+                    );
+                }
+                else{
+                    return (
+                        <Route
+                            exact
+                            path={prop.path}
+                            render={props => <prop.component {...props} />}
+                            key={key}
+                        />
+                    );
+                }
             } else {
 
                 return null;

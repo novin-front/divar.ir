@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import {
   Container,
   Row,
@@ -16,14 +16,22 @@ import "slick-carousel/slick/slick-theme.css";
 import ProductSilder from './productSlider'
 import ShareBox from './ShareBox';
 import AdvertisingActions from './AdvertisingActions';
-export default function SingelAdvertis() {
+export default function SingelAdvertis(props) {
+  useEffect(() => {
+  }, [])
   const [Modal, setModal] = useState(false)
   const toggle = () => {
     // setModal(!(Modal))
     };
+  const postSelectedHandler = (id="12",title="mohmmad") => {
+    let newurl = document.location["href"];
+    document.location["href"] = newurl + "/mohammad";
+  }
     return (
       <section className="single-Adivertis-view">
         <Container>
+          {console.log("props--->", props)}
+          
           <Row className="d-flex justify-content-center">
             <Col md={12}>
               <div>

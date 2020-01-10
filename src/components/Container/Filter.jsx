@@ -21,7 +21,17 @@ import {
   InputGroup,
   InputGroupText,
 } from "reactstrap";
-export default function Filter() {
+import { connect } from 'react-redux'
+function Filter({ suggestion ,Categoryes}) {
+  const RenderFerterTag = ()=>{
+    return(
+      suggestion.map((itme,index) =>{
+        return(
+          <button className="btn-filter-tag">{itme.displayed_text}</button>
+        )
+      })
+    );
+  }
     return (
       <section className="filter-search">
         <Container>
@@ -39,15 +49,7 @@ export default function Filter() {
             </InputGroup>
           </div>
           <Col className="col-md-12 filter-tag-search">
-            <button className="btn-filter-tag">خودرو سواری</button>
-            <button className="btn-filter-tag">فروش مسکونی</button>
-            <button className="btn-filter-tag">اجاره مسکونی</button>
-            <button className="btn-filter-tag">موبایل</button>
-            <button className="btn-filter-tag">مبلمان</button>
-            <button className="btn-filter-tag">حیوانات</button>
-            <button className="btn-filter-tag">وسایل شخصی</button>
-            <button className="btn-filter-tag">خدمات</button>
-            <button className="btn-filter-tag">استخدام</button>
+            {RenderFerterTag()}
           </Col>
           <div className="description-filter-search">
             <span>
@@ -59,3 +61,11 @@ export default function Filter() {
       </section>
     );
 }
+const mapStateToProps = (state) => {
+let { DivarApi } = state;
+return {
+  Categoryes: DivarApi.AllCategory,
+  suggestion: DivarApi.suggestion_list,
+}
+}
+export default connect(mapStateToProps, null)(Filter)

@@ -15,6 +15,7 @@ const router =[
          menuPosition: "mainMenu",
          render: true,
          mainMenu: true,
+         parentRoute: null,
      },
      {
          path: "/chat",
@@ -23,6 +24,7 @@ const router =[
          menuPosition: "mainMenu",
          render: true,
          mainMenu: true,
+         parentRoute: "/",
      },
      
      {
@@ -32,6 +34,7 @@ const router =[
          menuPosition: "mainMenu",
          render:true,
          mainMenu: true,
+         parentRoute: "/",
      },
      {
          path: "/contact",
@@ -40,6 +43,7 @@ const router =[
          menuPosition: "mainMenu",
          render: true,
          mainMenu: true,
+         parentRoute: "/",
      },
      {
          path: "/new",
@@ -48,6 +52,7 @@ const router =[
          menuPosition: "mainMenu",
          render: true,
          mainMenu: true,
+         parentRoute: "/",
      },
      {
          path: "/blog",
@@ -56,6 +61,7 @@ const router =[
          menuPosition: "mainMenu",
          render: true,
          mainMenu: true,
+          parentRoute: "/",
      },
      {
          path: "/support",
@@ -64,14 +70,16 @@ const router =[
          menuPosition: "mainMenu",
          render: true,
          mainMenu: true,
+          parentRoute: "/",
      },
      {
-         path: "/view",
+         path: `/view/:name`,
          name: "نمایش آگهی",
          component: SingelAdvertis,
          menuPosition: "mainMenu",
          render: true,
          mainMenu: true,
+          parentRoute: "/",
      },
 ]
 export default router;

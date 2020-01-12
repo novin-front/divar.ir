@@ -3,6 +3,7 @@ import * as DrivarApi  from './divar/saga';
 export default function* rootSaga() {
   yield all([
     DrivarApi.advertisingDataWatcher(),
-    DrivarApi.getCategoryesDataWatcher()
+    DrivarApi.getCategoryesDataWatcher(),
+    DrivarApi.getDAtaSinglePostWatcher(),
   ]);
 }

@@ -18,41 +18,63 @@ export default class ProductSilder extends Component {
   }
 
   render() {
+    const RenderLargImage = ()=>{
+      let { img } = this.props;
+      if(img !== undefined){
+        console.log("img %%%%%%",img.length)
+        if(img.length === 0){
+          return (
+            <img
+              className="img-fluid"
+              src={require("assets/img/divar/image-placeholder.png")}
+              alt=""
+            />
+          )
+        }
+         return img.map((itme, index) => {
+          return (
+            <div key={index}>
+              <div className="slider-image-large">
+                <img
+                  className="img-fluid"
+                  src={itme}
+                  alt=""
+                />
+              </div>
+            </div>
+          )
+        })
+      }
+    }
+    const RenderSmallImage = () => {
+      let { img } = this.props;
+      if (img !== undefined) {
+        return img.map((itme, index) => {
+          return (
+            <div key={index}>
+              <div className="slider-image-small">
+                <img
+                  className="img-fluid"
+                  src={itme}
+                  alt=""
+                />
+              </div>
+            </div>
+          )
+        })
+      }
+
+
+    }
     return (
       <div>
         <Slider
           asNavFor={this.state.nav2}
           ref={slider => (this.slider1 = slider)}
         >
-          <div>
-            <div className="slider-image-large">
-              <img
-                className="img-fluid"
-                src="https://s101.divarcdn.com/static/pictures/1578442886/gXUs-CVn.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-large">
-              <img
-                className="img-fluid"
-                src="https://s101.divarcdn.com/static/pictures/1578442886/gXUs-CVn.1.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-large">
-              <img
-                className="img-fluid"
-                src="https://s101.divarcdn.com/static/pictures/1578442886/gXUs-CVn.2.jpg"
-                alt=""
-              />
-            </div>
-          </div>
+          {RenderLargImage()}
         </Slider>
-        
+
         <Slider
           asNavFor={this.state.nav1}
           ref={slider => (this.slider2 = slider)}
@@ -60,33 +82,7 @@ export default class ProductSilder extends Component {
           swipeToSlide={true}
           focusOnSelect={true}
         >
-          <div>
-            <div className="slider-image-small">
-              <img
-                className="img-fluid"
-                src="https://s101.divarcdn.com/static/pictures/1578442886/gXUs-CVn.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-small">
-              <img
-                className="img-fluid"
-                src="https://s101.divarcdn.com/static/pictures/1578442886/gXUs-CVn.1.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-small">
-              <img
-                className="img-fluid"
-                src="https://s101.divarcdn.com/static/pictures/1578442886/gXUs-CVn.2.jpg"
-                alt=""
-              />
-            </div>
-          </div>
+          {RenderSmallImage()}
         </Slider>
       </div>
     );

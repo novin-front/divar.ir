@@ -24,7 +24,7 @@ export default function MainSidebar() {
               <ul className="filter-category-list">
                 <li className="filter-category-list__item">
                   <i className="fa fa-home mr-2" />
-                  <Link>املاک</Link>
+                  <Link to=" ">املاک</Link>
                 </li>
                 <li className="filter-category-list__item">
                   <i className="fa fa-car mr-2" />

@@ -161,3 +161,76 @@ const getCategoryesDataWorker = function* (action) {
         });
     }
 }
+
+// ************************  get data Single Advertising ********************************
+// https: //api.divar.ir/v5/posts/gXaMiGq6
+
+
+export const getDAtaSinglePostWatcher = function* () {
+    yield takeEvery('GET_SINGLE_POST_DATA', getDAtaSinglePostWorker)
+    console.log("GET_SINGLE_POST_DATAwather 111 ");
+}
+const getDAtaSinglePostWorker = function* (action) {
+    console.log("GET_SINGLE_POST_DATA 333 ");
+
+    try {
+        const result = yield call(() => {
+            return (
+                http2.httpRequst('GET', `posts/${action.payload}`, {}, )
+                .then(response => {
+                    console.log("GET_SINGLE_POST_DATA response  33333 ", response);
+
+                    return {
+                         success: true,
+                        ...response.data
+                    }
+                })
+                .catch(function (error) {
+                    // handle error
+                    console.log("this is saga GET_SINGLE_POST_DATA error  33333 ", error);
+
+                    return {
+                        success: false,
+                        error: error.response === undefined ? error : error.response,
+                        status: error.response.status
+                    }
+
+                })
+                .finally(function () {
+
+                    // always executed 
+                })
+            );
+        });
+
+        console.log("this is saga Result GET_SINGLE_POST_DATA Result RR", result);
+
+        if (result.success) {
+
+            yield put({
+                type: "GET_SINGLE_POST_DATA_SUCCESS",
+                payload: result,
+            });
+        } else {
+
+            switch (true) {
+                default:
+                    yield put({
+                        type: "GET_SINGLE_POST_DATA_FAILED",
+                        payload: result,
+                    });
+                    break;
+            }
+        }
+
+    } catch (error) {
+        yield put({
+            type: "GET_SINGLE_POST_DATA_FAILED_END",
+            payload: {
+                success: false,
+                error: "Error 500",
+                status: "500"
+            }
+        });
+    }
+}

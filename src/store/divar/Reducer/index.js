@@ -3,7 +3,9 @@ const initState = {
     AllCategory:[],
     suggestion_list: [],
     AdvertisingList:[],
-    last_post_date:''
+    last_post_date:'',
+    singlePostData:{},
+    singleWidgetsData : {},
 }
 const AdvertisingReducer = (state = initState, action) => {
     let newState = state;
@@ -88,9 +90,59 @@ const AdvertisingReducer = (state = initState, action) => {
                 }
             }
             break;
+
+
+
+
+
+
+
+             case 'GET_SINGLE_POST_DATA_SUCCESS':
+                 console.log("ACtion ",action)
+             let {
+                 data,
+                 widgets,
+             } = action.payload
+             newState = {
+                 ...state,
+                 singlePostData: data,
+                 singleWidgetsData: widgets,
+             }
+             break;
+             case 'GET_SINGLE_POST_DATA_FAILED':
+
+             newState = {
+                 ...state,
+                 formsError: {
+                     errorState: true,
+                     type: 'danger',
+                     errorMessage: 'داده مورد نظر دریافت نشد ',
+                     errorTitel: 'خطا',
+                     mainError: action.payload.error.message
+
+                 }
+             }
+             break;
+             case 'GET_SINGLE_POST_DATA_FAILED_END':
+
+             newState = {
+                 ...state,
+                 errorFor: "GetUsers",
+                 formsError: {
+                     errorState: true,
+                     type: 'danger',
+                     errorMessage: 'داده مورد نظر دریافت نشد ',
+                     errorTitel: 'خطا',
+                     mainError: action.payload.error.message
+
+                 }
+             }
+             break;
+
         default:
             newState = state;
             break;
+            
     }
     return newState;
 }

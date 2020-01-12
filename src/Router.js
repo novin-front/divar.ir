@@ -73,7 +73,7 @@ const router =[
           parentRoute: "/",
      },
      {
-         path: `/view/:name`,
+         path: `/view/:name/:id`,
          name: "نمایش آگهی",
          component: SingelAdvertis,
          menuPosition: "mainMenu",

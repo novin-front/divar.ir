@@ -4,8 +4,10 @@ import { Link } from 'react-router-dom';
 export default function WidgetItem(props) {
     return (
         <>
-            <Link className="col-xs-12 col-sm-6 col-xl-4 post-list-card" {...props} to={`/view/${props.data.title}`}>
+            <Link className="col-xs-12 col-sm-6 col-xl-4 post-list-card" {...props} 
+                to={{ pathname: `/view/${props.data.title}/${props.data.token}`, state: { post : props.data} }}>
                 <div className="post-list-card__content">
+                    
                     <h4 className="post-list-card__title">
                         {props.data.title}
               </h4>

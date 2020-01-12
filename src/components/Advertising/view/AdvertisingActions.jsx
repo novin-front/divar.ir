@@ -48,7 +48,7 @@ export default function AdvertisingActions() {
             <button className="btn-divar-block">
                 <span>شروع چت</span>
                 <span>
-                    <i class="fa fa-comments-o" />
+                    <i className="fa fa-comments-o" />
                 </span>
             </button>
 

@@ -3,7 +3,7 @@ import { OverlayTrigger, Tooltip, Modal,Button} from 'react-bootstrap'
 
 import { Link } from 'react-router-dom';
 import ReportProblem from './Modal/ReportProblem';
-export default function ShareBox() {
+export default function ShareBox({link}) {
     const [Tooltips, setTooltips] = useState({
         text : "کپی پیوند"
     });
@@ -13,7 +13,7 @@ export default function ShareBox() {
     const handleShow = () => setShow(true);
 
 
-    const shortLink ="https://divar.ir/v/gXVsob0s";
+    const shortLink =`https://divar.ir/v/${link}`;
     const copyToClipboard =()=>{
         let copyText = document.getElementById("ShortLinkInput");
         copyText.select();

@@ -131,7 +131,7 @@ function SingelAdvertis(props) {
             </Col>
             <Col md={6}>
               <ProductSilder img={props.singleWidgets.images}/>
-                <ShareBox/>
+              <ShareBox link={props.token}/>
             </Col>
           </Row>
         </Container>
@@ -151,9 +151,11 @@ const mapDispatchToProps = (dispatch) => {
 
 const mapStateToProps = (state) => {
   let { DivarApi } = state;
+  console.log("All state--->",state)
   return {
     singlePostAllData: DivarApi.singlePostData,
     singleWidgets: DivarApi.singleWidgetsData,
+    token: DivarApi.tokenpost
   }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(SingelAdvertis)

@@ -6,9 +6,11 @@ const initState = {
     last_post_date:'',
     singlePostData:{},
     singleWidgetsData : {},
+    tokenpost:''
 }
 const AdvertisingReducer = (state = initState, action) => {
     let newState = state;
+    
     switch (action.type) {
         case 'FETCH_ADVERTISING_DATA_SUCCESS':
             let {
@@ -98,13 +100,14 @@ const AdvertisingReducer = (state = initState, action) => {
 
 
              case 'GET_SINGLE_POST_DATA_SUCCESS':
-                 console.log("ACtion ",action)
              let {
                  data,
+                 token,
                  widgets,
              } = action.payload
              newState = {
                  ...state,
+                 tokenpost : token,
                  singlePostData: data,
                  singleWidgetsData: widgets,
              }

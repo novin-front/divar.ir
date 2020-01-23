@@ -17,7 +17,7 @@ function FilterMobile({ Categoryes,suggestion}) {
         return (
             suggestion.map((itme, index) => {
                 return (
-                    <button className="btn-filter-tag">{itme.displayed_text}</button>
+                    <button className="btn-filter-tag" key={index}>{itme.displayed_text}</button>
                 )
             })
         );

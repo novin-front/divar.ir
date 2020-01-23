@@ -2,14 +2,6 @@ import React,{useState,useEffect} from 'react'
 import {
   Container,
   Row,
-  Col,
-  Button,
-  UncontrolledCollapse,
-  Card,
-  CardBody,
-  FormGroup,
-  Label,
-  Input
 } from "reactstrap";
 import {connect} from 'react-redux'
 import WidgetItem from './widgetItem';

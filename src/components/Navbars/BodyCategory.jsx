@@ -13,7 +13,7 @@ export default function BodyCategory({title,data}) {
                 data.map((itme, index) => {
                     if (itme.parent_slug === "root") {
                         return (
-                            <li className="filter-category-list-modal__li">
+                            <li className="filter-category-list-modal__li" key={index}>
                                 <Link to=" " className="filter-category-list-modal__item">
                                     <img src={itme.icon_url.replace("_%s.png", ".svg")} className="filter-category-list-modal__icon" alt="" />
                                     {itme.title}

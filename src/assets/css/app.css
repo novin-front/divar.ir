@@ -1130,7 +1130,7 @@ ul.advertis-data-list {
 .filter-mobile-wrapper {
     display: none;
     width: 100%;
-    margin-top: 60px;
+    top: 60px;
     position: fixed;
     z-index: 3;
     background-color: #fafafa;

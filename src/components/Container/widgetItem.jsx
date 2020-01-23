@@ -7,7 +7,7 @@ export default function WidgetItem(props) {
             <Link className="col-xs-12 col-sm-6 col-xl-4 post-list-card" {...props} 
                 to={{ pathname: `/view/${props.data.title.replace(" ", "-")}/${props.data.token}`, state: { post : props.data} }}>
                 <div className="post-list-card__content">
-                    {console.log("props.data.title.replace", props.data.title.replace(" ", "-"))}
+                    
                     <h4 className="post-list-card__title">
                         {props.data.title}
               </h4>

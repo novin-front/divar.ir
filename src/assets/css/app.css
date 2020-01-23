@@ -390,6 +390,7 @@ button.btn-filter-search {
      margin-bottom: .7rem;
      color: #424242;
      white-space: pre;
+     text-align: right;
  }
  span.post-list-card__info-label {
      font-size: 12px;
@@ -1131,7 +1132,7 @@ ul.advertis-data-list {
     width: 100%;
     margin-top: 60px;
     position: fixed;
-    z-index: 99999999;
+    z-index: 3;
     background-color: #fafafa;
     padding: 5px 5px 14px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .08);
@@ -1166,6 +1167,42 @@ ul.advertis-data-list {
 .filter-btn i {
     margin-left: 10px;
 }
+#modal-moblie-category-filter .modal-header .h4{
+    font-size: 15px;
+    line-height: 25px;
+}
+#modal-moblie-category-filter .modal-body{
+    padding: 0;
+}
+.filter-category-list-modal {
+    width: 100%;
+    text-align: right;
+}
+
+.filter-category-list-modal__item ,
+.filter-category-list-modal__item:hover {
+    color: rgba(0, 0, 0, .87);
+}
+
+.filter-category-list-modal__item {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+    padding: .875rem;
+    display: block;
+    text-align: right;
+    cursor: pointer;
+}
+.filter-category-list-modal__icon {
+    vertical-align: middle;
+    opacity: .8;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: .4375rem;
+}
+.filter-category-list-modal__item i{
+    float: left;
+}
 @media screen and (max-width:768px){
     
 }
@@ -1181,6 +1218,9 @@ ul.advertis-data-list {
     }
     .d-none-sm-m {
         display: none;
+    }
+    section.single-Adivertis-view{
+            padding-top: 160px;
     }
 }
 @media screen and (min-width:1200px){
@@ -1211,6 +1251,23 @@ ul.advertis-data-list {
     .content-all .container{
         padding-left: 0;
         padding-right: 0;
+    }
+    #modal-moblie-category-filter.modal-dialog {
+        margin: 0px;
+    }
+    #modal-moblie-category-filter .modal-header .close {
+        padding: 1rem;
+        margin: -1rem auto -1rem -1rem;
+    }
+
+    #modal-moblie-category-filter .modal-header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #fafafa;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .08);
+    }
+    #modal-moblie-category-filter .modal-content {
+        height: 100vh;
     }
 }
 @media screen  and (min-width:1500px){

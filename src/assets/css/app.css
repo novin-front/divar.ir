@@ -93,6 +93,8 @@ nav#navbar-main {
     background: #fff;
     height: 65px;
     border-bottom: 1px solid #eee;
+    left: 0;
+    right: 0;
 }
 nav#navbar-main a.nav-link {
     color: #000 !important;
@@ -1110,11 +1112,76 @@ input#ShortLinkInput::selection {
     .support-section h1{
         font-size: 22px;
     }
+    .Advertis-content-Wrapper__btn-details {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
 ul.advertis-data-list {
     display: flex;
     justify-content: center;
     flex-flow: column;
+}
+
+/************** Filter mobile  *************/
+.filter-mobile-wrapper {
+    display: none;
+    width: 100%;
+    margin-top: 60px;
+    position: fixed;
+    z-index: 99999999;
+    background-color: #fafafa;
+    padding: 5px 5px 14px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .08);
+    left: 0;
+    right: 0;
+}
+.filter-mobile-wrapper__buttns {
+    margin-top: 6px;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: start;
+}
+.filter-mobile-wrapper__buttns::-webkit-scrollbar {
+    display: none;
+}
+.filter-btn {
+    align-items: center;
+    color: #a62626;
+    background-color: #fff;
+    border-radius: 14px;
+    border: 1px solid #a62626;
+    word-wrap: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    margin-left: .75rem;
+    font-size: .75rem;
+    height: 1.75rem;
+    outline: none;
+    padding: 0 12px;
+}
+.filter-btn i {
+    margin-left: 10px;
+}
+@media screen and (max-width:768px){
+    
+}
+@media screen and (max-width:922px){
+    section.content-all{
+        margin-top: 164px;
+    }
+    section.filter-search {
+        display: none;
+    }
+    .filter-mobile-wrapper{
+        display: block;
+    }
+    .d-none-sm-m {
+        display: none;
+    }
 }
 @media screen and (min-width:1200px){
     nav#navbar-main li.nav-item {
@@ -1138,6 +1205,12 @@ ul.advertis-data-list {
     .contact_us-section{
         margin-right: -15px;
         margin-left: -15px;
+    }
+}
+@media screen and (max-width:520px){
+    .content-all .container{
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media screen  and (min-width:1500px){

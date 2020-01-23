@@ -33,7 +33,9 @@ function PostContainer({ widgetList, Categoryes, fetchAdvertise, fetchCategories
     return (
       <section className="post-Container">
         <div className="browse-post-list">       
-          {RenderAdvertisingList()}
+          <Row>
+            {RenderAdvertisingList()}
+          </Row>
         </div>
       </section>
     );

@@ -44,7 +44,7 @@ export default function AdvertisingActions() {
         <>
             <button 
                 onClick={e => handleShow("CONTACT")}
-                    className="btn-divar">دریافت اطلاعات تماس</button>
+                    className="btn-divar m-2">دریافت اطلاعات تماس</button>
             <button className="btn-divar-block">
                 <span>شروع چت</span>
                 <span>

@@ -20,6 +20,7 @@ import {
   Col,
 } from "reactstrap";
 import ModalCity from "./ModalCity";
+import FilterMobile from "./FilterMobile";
 
 class DemoNavbar extends React.Component {
   constructor(props){
@@ -33,9 +34,11 @@ class DemoNavbar extends React.Component {
       modal: !(this.state.modal)
     })};
   componentDidMount() {
-    let headroom = new Headroom(document.getElementById("navbar-main"));
-    // initialise
-    headroom.init();
+   if(window.innerWidth > 922){
+     let headroom = new Headroom(document.getElementById("navbar-main"));
+     // initialise
+     headroom.init();
+   }
   }
 
   render() {
@@ -43,6 +46,11 @@ class DemoNavbar extends React.Component {
       buttonLabel,
       className
     } = this.props;
+    const RenderFilterMobile =()=>{
+     if(window.innerWidth < 920){
+       return <FilterMobile />
+     }
+    }
     return (
       <>
         <header className="header-global">
@@ -161,6 +169,7 @@ class DemoNavbar extends React.Component {
               </UncontrolledCollapse>
             </div>
           </Navbar>
+          {RenderFilterMobile()}
         </header>
         <Modal isOpen={this.state.modal} id="Modal-city" toggle={this.toggle} className={`All-city-modal ${className}`}>
           <ModalHeader className="header-city-modal" toggle={this.toggle}>انتخاب شهر</ModalHeader>

@@ -1204,7 +1204,14 @@ ul.advertis-data-list {
     float: left;
 }
 @media screen and (max-width:768px){
-    
+    ul.align-items-lg-center.ml-lg-auto.navbar-nav li {
+        text-align: center;
+        padding: 8px 0;
+        border-bottom: 1px solid #eee;
+    }
+    ul.align-items-lg-center.ml-lg-auto.navbar-nav li:hover{
+            background: #cecece;
+    }
 }
 @media screen and (max-width:922px){
     section.content-all{
@@ -1222,6 +1229,17 @@ ul.advertis-data-list {
     section.single-Adivertis-view{
             padding-top: 160px;
     }
+    section.weblog-section {
+        padding-top: 170px;
+    }
+    .chat-section {
+        margin-top: 175px;
+    }
+    section.section-about-us,
+    .section-contact-us {
+        margin-top: 180px;
+    }
+
 }
 @media screen and (min-width:1200px){
     nav#navbar-main li.nav-item {

@@ -1,5 +1,13 @@
 import React,{useEffect} from 'react'
-import { Container, Button, Form, Row, Col, Card } from "react-bootstrap";
+import {
+  Container,
+  Button,
+  Form,
+  Row,
+  Col,
+  Card,
+  Spinner
+} from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import FooterBlog from 'components/Footers/FooterBlog';
 import {connect} from 'react-redux'
@@ -25,6 +33,14 @@ function Weblog({ FeachBlogPosts, FeachSinglePosts, Posts, SingelPost }) {
           );
         }
       });
+    }else{
+      return (
+        <Card>
+          <div className="text-center">
+            <Spinner animation="border" variant="divar-color" size="lg"/>
+          </div>
+        </Card>
+      );
     }
   };
   const RenderSinglePostBlog = () => {
@@ -37,6 +53,13 @@ function Weblog({ FeachBlogPosts, FeachSinglePosts, Posts, SingelPost }) {
          return <ThumbnailBlogPost postData={itme} image={ImageArray[index]} />;
        }
       });
+    }
+    else{
+      return (
+        <div className="text-center">
+          <Spinner animation="border" variant="divar-color" />
+        </div>
+      );
     }
   };
   return (

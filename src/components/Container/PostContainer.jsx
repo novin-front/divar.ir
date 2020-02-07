@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react'
 import {
   Container,
   Row,
+  Spinner
 } from "reactstrap";
 import {connect} from 'react-redux'
 import WidgetItem from './widgetItem';
@@ -20,14 +21,19 @@ function PostContainer({ widgetList, Categoryes, fetchAdvertise, fetchCategories
           )
         })
       )
+    }else{
+      return (
+        <div className="col-12 text-center pt-5">
+          <Spinner style={{ width: "3rem", height: "3rem" ,color : "#a62626"}}  />
+        </div>
+      );
     }
+
   }
     return (
       <section className="post-Container">
-        <div className="browse-post-list">       
-          <Row>
-            {RenderAdvertisingList()}
-          </Row>
+        <div className="browse-post-list d-flex justify-content-center">
+          <Row>{RenderAdvertisingList()}</Row>
         </div>
       </section>
     );

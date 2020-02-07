@@ -42,6 +42,13 @@ ul{
     display: inline-block;
     cursor: pointer;
 }
+.text-divar-color {
+    color:#a62626;
+}
+.spinner-border-lg {
+    width: 3rem;
+    height: 3rem;
+}
 .btn-divar-cancel {
         background: #e0e1e2 none;
         color: rgba(0, 0, 0, .6);

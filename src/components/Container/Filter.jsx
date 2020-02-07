@@ -7,17 +7,24 @@ import {
   InputGroupAddon,
   InputGroup,
   InputGroupText,
+  Spinner
 } from "reactstrap";
 import { connect } from 'react-redux'
 function Filter({ suggestion ,Categoryes}) {
   const RenderFerterTag = ()=>{
-    return(
-      suggestion.map((itme,index) =>{
-        return(
-          <button className="btn-filter-tag">{itme.displayed_text}</button>
-        )
-      })
-    );
+    if(suggestion.length > 0){
+         return suggestion.map((itme, index) => {
+           return (
+             <button className="btn-filter-tag">{itme.displayed_text}</button>
+           );
+         });
+    }else{
+      return (
+        <div className="col-12 text-center ">
+          <Spinner style={{ width: "1.5rem", height: "1.5rem" , color : "#a62626"}} />
+        </div>
+      );
+    }
   }
     return (
       <section className="filter-search">

@@ -4,6 +4,7 @@ import {connect} from 'react-redux'
 import axios from 'axios'
 import Wrapper from "components/wrapper";
 import NotFound from "components/Error/NotFound";
+import Axios from 'axios';
 function App({
     fetchAdvertise,
     fetchCategories,
@@ -14,10 +15,35 @@ function App({
           const getData = async () => {
                   await fetchAdvertise("tehran");
                   await fetchCategories();
+                  await getApi()
                 }
         getData();
         
     }, [])
+    const getApi =()=>{
+        Axios.get('http://roocket.org/api/products', {
+            headers : {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
+                'Access-Control-Allow-Headers' : 'Content-Type, Authorization, Authorizations, X-Authorization'
+            },
+            proxy: {
+                host: '104.236.174.88',
+                port: 3128
+            }
+        }).then(function (response) {
+            console.log('response is :&&&&&&&&&&&&&&& ' , response);
+        }).catch(function (error) {
+            if (error.response) {
+                console.log(" error.config -=>&&&&&&&&&&&&&&&&&&&&&",error.response.headers, );
+            } else if (error.request) {
+                console.log("error.request -=> &&&&&&&&&&&&&&&&", error.request);
+            } else {
+                console.log("error.message -=>&&&&&&&&&&&&&&&&", error.message);
+            }
+            console.log("error.config -=> &&&&&&&&&&&&&&", error.config);
+        });
+    }
     return (
         <>
             <BrowserRouter>

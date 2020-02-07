@@ -3,6 +3,8 @@ const initState = {
     AllCategory:[],
     suggestion_list: [],
     AdvertisingList:[],
+    BlogPosts: [],
+    SingleBlogPosts: [],
     last_post_date:'',
     singlePostData:{},
     singleWidgetsData : {},
@@ -96,9 +98,6 @@ const AdvertisingReducer = (state = initState, action) => {
 
 
 
-
-
-
              case 'GET_SINGLE_POST_DATA_SUCCESS':
              let {
                  data,
@@ -141,6 +140,85 @@ const AdvertisingReducer = (state = initState, action) => {
                  }
              }
              break;
+
+
+
+
+            case 'GET_BLOG_POST_DATA_SUCCESS':
+            newState = {
+                ...state,
+                BlogPosts: action.payload,
+            }
+            break;
+            case 'GET_BLOG_POST_DATA_FAILED':
+
+            newState = {
+                ...state,
+                formsError: {
+                    errorState: true,
+                    type: 'danger',
+                    errorMessage: 'داده مورد نظر دریافت نشد ',
+                    errorTitel: 'خطا',
+                    mainError: action.payload.error.message
+
+                }
+            }
+            break;
+            case 'GET_BLOG_POST_DATA_FAILED_END':
+
+            newState = {
+                ...state,
+                errorFor: "GetUsers",
+                formsError: {
+                    errorState: true,
+                    type: 'danger',
+                    errorMessage: 'داده مورد نظر دریافت نشد ',
+                    errorTitel: 'خطا',
+                    mainError: action.payload.error.message
+
+                }
+            }
+            break;
+
+            case 'GET_SINGLE_BLOG_POST_SUCCESS':
+                const convertToArray =()=>{
+                    let value = Object.values(action.payload);
+                    return value
+                }
+            newState = {
+                ...state,
+                SingleBlogPosts: convertToArray(),
+            }
+            break;
+            case 'GET_SINGLE_BLOG_POST_FAILED':
+
+            newState = {
+                ...state,
+                formsError: {
+                    errorState: true,
+                    type: 'danger',
+                    errorMessage: 'داده مورد نظر دریافت نشد ',
+                    errorTitel: 'خطا',
+                    mainError: action.payload.error.message
+
+                }
+            }
+            break;
+            case 'GET_SINGLE_BLOG_POST_FAILED_END':
+
+            newState = {
+                ...state,
+                errorFor: "GetUsers",
+                formsError: {
+                    errorState: true,
+                    type: 'danger',
+                    errorMessage: 'داده مورد نظر دریافت نشد ',
+                    errorTitel: 'خطا',
+                    mainError: action.payload.error.message
+
+                }
+            }
+            break;
 
         default:
             newState = state;

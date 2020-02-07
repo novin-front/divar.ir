@@ -7,7 +7,7 @@ export default function FooterBlog() {
         <Container>
           <Row>
             <div className="footer-logo-div">
-              <Link className="wrapper-blog-logo">
+              <Link to="#" className="wrapper-blog-logo">
                 <img
                   className="img-fluid"
                   src={require("assets/img/brand/logo-weblog.png")}
@@ -26,7 +26,7 @@ export default function FooterBlog() {
           </Row>
           <Row className="d-flex justify-content-center">
             <Col md={4}>
-              <div class="social-network-blog ">
+              <div className="social-network-blog ">
                 <Row className="d-flex justify-content-center">
                   <Col className=" text-lg-center btn-wrapper">
                     <a

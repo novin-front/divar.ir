@@ -5,5 +5,7 @@ export default function* rootSaga() {
     DrivarApi.advertisingDataWatcher(),
     DrivarApi.getCategoryesDataWatcher(),
     DrivarApi.getDAtaSinglePostWatcher(),
+    DrivarApi.getBlogPostsWatcher(),
+    DrivarApi.singleBlogPostsWatcher(),
   ]);
 }

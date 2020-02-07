@@ -22,7 +22,12 @@ const advertisingDataWorker = function* (action) {
         const result = yield call(() => {
             return (
                 // http2.httpRequst('POST', 'search/1/ROOT', {}, JSON.stringify(dataConfig))
-                http2.httpRequst('GET', `web-search/${action.payload}`, {}, JSON.stringify(dataConfig))
+                http2.httpRequst('GET', `web-search/${action.payload}`, {
+                    "access-control-allow-origin": "*",
+                    "Content-type": "application/json; charset=UTF-8",
+                    "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+                    "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token"
+                }, JSON.stringify(dataConfig),false)
                 .then(response => {
                     return {
                         city : action.payload,
@@ -106,7 +111,12 @@ const getCategoryesDataWorker = function* (action) {
     try {
         const result = yield call(() => {
             return (
-                http2.httpRequst('GET', 'categories?source=internal', {},)
+                http2.httpRequst('GET', 'categories?source=internal', {
+                    "access-control-allow-origin": "*",
+                    "Content-type": "application/json; charset=UTF-8",
+                    "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+                    "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token"
+                },{},false )
                 .then(response => {
                     return {
                         ...response.data
@@ -176,7 +186,12 @@ const getDAtaSinglePostWorker = function* (action) {
     try {
         const result = yield call(() => {
             return (
-                http2.httpRequst('GET', `posts/${action.payload}`, {}, )
+                http2.httpRequst('GET', `posts/${action.payload}`, {
+                    "access-control-allow-origin": "*",
+                    "Content-type": "application/json; charset=UTF-8",
+                    "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+                    "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token"
+                },{}, false)
                 .then(response => {
                     console.log("GET_SINGLE_POST_DATA response  33333 ", response);
 
@@ -226,6 +241,159 @@ const getDAtaSinglePostWorker = function* (action) {
     } catch (error) {
         yield put({
             type: "GET_SINGLE_POST_DATA_FAILED_END",
+            payload: {
+                success: false,
+                error: "Error 500",
+                status: "500"
+            }
+        });
+    }
+}
+
+// ************************  get Blog Posts Watcher ********************************
+// https: //api.divar.ir/v5/posts/gXaMiGq6
+
+
+export const getBlogPostsWatcher = function* () {
+    yield takeEvery('GET_BLOG_POST_DATA', getBlogPostsWorker)
+    console.log("GET_SINGLE_POST_DATAwather 111 ");
+}
+const getBlogPostsWorker = function* (action) {
+    console.log("getBlogPosts 333 ");
+
+    try {
+        const result = yield call(() => {
+            return (
+                http2.httpRequst('GET', `http://roocket.org/api/products`, {
+                    "access-control-allow-origin": "*",
+                    "Content-type": "application/json; charset=UTF-8",
+                    "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+                    "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token"
+                },{},true )
+                .then(response => {
+                    console.log("GET_SINGLE_POST_DATA response  33333 ", response);
+
+                    return {
+                         success: true,
+                        ...response.data
+                    }
+                })
+                .catch(function (error) {
+                    // handle error
+                    console.log("this is saga GET_SINGLE_POST_DATA error  33333 ", error);
+
+                    return {
+                        success: false,
+                        error: error.response === undefined ? error : error.response,
+                        status: error.response.status
+                    }
+
+                })
+                .finally(function () {
+
+                    // always executed 
+                })
+            );
+        });
+
+        console.log("this is saga Result GET_SINGLE_POST_DATA Result RR", result);
+
+        if (result.success) {
+
+            yield put({
+                type: "GET_BLOG_POST_DATA_SUCCESS",
+                payload: result,
+            });
+        } else {
+
+            switch (true) {
+                default:
+                    yield put({
+                        type: "GET_BLOG_POST_DATA_FAILED",
+                        payload: result,
+                    });
+                    break;
+            }
+        }
+
+    } catch (error) {
+        yield put({
+            type: "GET_BLOG_POST_DATA_FAILED_END",
+            payload: {
+                success: false,
+                error: "Error 500",
+                status: "500"
+            }
+        });
+    }
+}
+
+
+export const singleBlogPostsWatcher = function* () {
+    yield takeEvery('GET_SINGLE_BLOG_POST_DATA', singleBlogPostsWorker)
+    console.log("GET_SINGLE_POST_DATAwather 111 ");
+}
+const singleBlogPostsWorker = function* (action) {
+    console.log("singleBlogPosts 333 ");
+
+    try {
+        const result = yield call(() => {
+            return (
+                http2.httpRequst('GET', `https://jsonplaceholder.ir/posts`, {
+                    "access-control-allow-origin": "*",
+                    "Content-type": "application/json; charset=UTF-8",
+                    "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+                    "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token"
+                }, {}, true)
+                .then(response => {
+                    console.log("GET_SINGLE_POST_DATA response  33333 ", response);
+
+                    return {
+                        success: true,
+                        ...response.data
+                    }
+                })
+                .catch(function (error) {
+                    // handle error
+                    console.log("this is saga GET_SINGLE_POST_DATA error  33333 ", error);
+
+                    return {
+                        success: false,
+                        error: error.response === undefined ? error : error.response,
+                        status: error.response.status
+                    }
+
+                })
+                .finally(function () {
+
+                    // always executed 
+                })
+            );
+        });
+
+        console.log("this is saga Result GET_SINGLE_POST_DATA Result RR", typeof (result));
+
+        if (result.success) {
+
+            yield put({
+                type: "GET_SINGLE_BLOG_POST_SUCCESS",
+                payload: result,
+            });
+        } else {
+
+            switch (true) {
+                default:
+                    yield put({
+                        type: "GET_SINGLE_BLOG_POST_FAILED",
+                        payload: result,
+                    });
+                    break;
+            }
+        }
+
+    } catch (error) {
+        yield put({
+            type: "GET_SINGLE_BLOG_POST_FAILED_END",
             payload: {
                 success: false,
                 error: "Error 500",

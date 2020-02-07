@@ -16,7 +16,7 @@
     "design-react"
   ],
   "author": "mohammad yazdanpanah",
-  "homepage": "",
+  "homepage": "http://divar.harfehakhar.net/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -27,6 +27,7 @@
     "minify-sass": "node-sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.min.css --output-style compressed",
     "map-sass": "node-sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.css --source-map true"
   },
+  "proxy": "http://divar.harfehakhar.net/",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -41,6 +42,7 @@
     "bootstrap": "^4.4.1",
     "classnames": "2.2.6",
     "headroom.js": "0.9.4",
+    "http-proxy-middleware": "^0.20.0",
     "moment": "2.24.0",
     "node-sass": "4.12.0",
     "nouislider": "13.1.5",

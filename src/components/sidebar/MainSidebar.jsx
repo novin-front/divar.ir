@@ -28,39 +28,39 @@ export default function MainSidebar() {
                 </li>
                 <li className="filter-category-list__item">
                   <i className="fa fa-car mr-2" />
-                  <Link>وسایل نقلیه</Link>
+                  <Link to="">وسایل نقلیه</Link>
                 </li>
                 <li className="filter-category-list__item">
                   <i className="fa fa-mobile mr-2" />
-                  <Link>لوازم الکترونیکی</Link>
+                  <Link to="#">لوازم الکترونیکی</Link>
                 </li>
                 <li className="filter-category-list__item">
                   <i className="fa fa-bed mr-2" />
-                  <Link>مربوط به خانه</Link>
+                  <Link to="#">مربوط به خانه</Link>
                 </li>
                 <li className="filter-category-list__item">
                   <i className="fa fa-wrench mr-2" />
-                  <Link>خدمات</Link>
+                  <Link to="#">خدمات</Link>
                 </li>
                 <li className="filter-category-list__item">
                   <i className="fa fa-video-camera mr-2" />
-                  <Link>وسایل شخصی</Link>
+                  <Link to="#">وسایل شخصی</Link>
                 </li>
                 <li className="filter-category-list__item">
                   <i className="fa fa-futbol-o mr-2" />
-                  <Link>سرگرمی و فراغت</Link>
+                  <Link to="#">سرگرمی و فراغت</Link>
                 </li>
                 <li className="filter-category-list__item">
                   <i className="fa fa-users mr-2" />
-                  <Link>اجتماعی</Link>
+                  <Link to="#">اجتماعی</Link>
                 </li>
                 <li className="filter-category-list__item">
                   <i className="fa fa-address-card-o mr-2" />
-                  <Link>برای کسب و کار</Link>
+                  <Link to="#">برای کسب و کار</Link>
                 </li>
                 <li className="filter-category-list__item">
                   <i className="fa fa-shopping-bag mr-2" />
-                  <Link>استخدام و کاریابی</Link>
+                  <Link to="#">استخدام و کاریابی</Link>
                 </li>
               </ul>
               <ul className="filter-other-list">

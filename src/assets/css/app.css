@@ -1,18 +1,4 @@
-/* @font-face {
-    font-family: shabnam;
-    src: url(../fonts/Shabnam.eot);
-    src: url(../fonts/Shabnam.eot?#iefix) format('embedded-opentype'),
-        url(../fonts/Shabnam.woff2) format('woff2'),
-        url(../fonts/Shabnam.woff) format('woff'),
-        url(../fonts/Shabnam.ttf) format('truetype');
-    font-weight: normal;
-} */
-@font-face {
-    font-family: iransans;
-    src: url(../fonts/fontawesome-webfont.ttf) format("ttf"),
-        url(../fonts/fontawesome-webfont.woff) format("woff") 
-        url(../fonts/fontawesome-webfont.woff2) format("woff2");
-}
+
 @font-face {
     font-family: Vazir;
     src: url(../fonts/Vazir.eot);
@@ -29,7 +15,7 @@ html {
 }
 
 body {
-    font-family: iransans;
+    font-family: Vazir;
     font-size: 15px;
 }
 ul{
@@ -831,10 +817,16 @@ a.social-btn-blog:hover i{
     width: 80px;
     border: 1px solid #a62626;
     padding: 1px;
+    min-width: 80px;
+    height: 60px;
+    overflow: hidden;
 }
-
+.post-content .fakeimg-thumbnail img {
+    height: 100%;
+    width: 100%;
+}
 .post-content h4 {
-    font-size: 18px;
+    font-size: 14px;
     padding: 0 10px;
 }
 h2.post-title-itme {

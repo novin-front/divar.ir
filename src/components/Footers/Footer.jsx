@@ -38,8 +38,8 @@ export default function Footer() {
               </ul>
             </Col>
           </Row>
-          <div class="social-network ">
-            <span class="head">
+          <div className="social-network ">
+            <span className="head">
               <h5>دیوار</h5> را در شبکه‌های اجتماعی دنبال کنید:
             </span>
             <Row className="d-flex justify-content-center">

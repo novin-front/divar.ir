@@ -49,6 +49,18 @@ ul{
     width: 3rem;
     height: 3rem;
 }
+span.text-btn {
+    color: #000;
+}
+.add-new-post {
+    position: fixed;
+    bottom: 3px;
+    margin: 0 auto;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    z-index: 99999;
+}
 .btn-divar-cancel {
         background: #e0e1e2 none;
         color: rgba(0, 0, 0, .6);
@@ -1306,5 +1318,10 @@ ul.advertis-data-list {
     div#mainpage {
         max-width: 1440px;
         margin: 0 auto;
+    }
+}
+@media screen and (max-width:768px){
+    .add-new-post {
+        display: flex;
     }
 }

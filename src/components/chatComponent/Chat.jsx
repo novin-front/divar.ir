@@ -10,6 +10,7 @@ import {
   InputGroupText,
   Card,
 } from "reactstrap";
+import NewAdvertisLink from 'components/Advertising/newAdvertis/NewAdvertisLink';
 
 export default function Chat() {
     return (
@@ -35,6 +36,7 @@ export default function Chat() {
               </div>
             </Card>
           </Col>
+          <NewAdvertisLink/>
         </Row>
       </>
     );

@@ -3,6 +3,7 @@ import DemoNavbar from 'components/Navbars/DemoNavbar'
 import { Container, Row,Col } from "reactstrap";
 import MainSidebar from 'components/sidebar/MainSidebar';
 import Content from 'components/Container/Content';
+import NewAdvertisLink from 'components/Advertising/newAdvertis/NewAdvertisLink';
 
 export default function MainPage(props) {
     const [breakPoint, setbreakPoint] = useState()
@@ -28,6 +29,7 @@ export default function MainPage(props) {
                     </Col>
                     <Col className="col-md-9 col-12">
                         <Content/>
+                        <NewAdvertisLink/>
                     </Col>
                 </Row>
             </Container>

@@ -2,7 +2,8 @@ import React,{useState} from 'react'
 import {
     Form,
     Modal,
-    Button
+    Button,
+    Spinner
 } from 'react-bootstrap';
 import {connect} from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -14,13 +15,19 @@ function FilterMobile({ Categoryes,suggestion}) {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     const RenderFerterTag = () => {
-        return (
+        if(suggestion.length){
+            return (
             suggestion.map((itme, index) => {
                 return (
                     <button className="btn-filter-tag" key={index}>{itme.displayed_text}</button>
                 )
             })
         );
+        }else{
+            return (
+                <Spinner animation="border" variant="divar-color" size="sm" />
+            );
+        }
     }
     const RenderModal =()=>{
         switch (Modalcount) {

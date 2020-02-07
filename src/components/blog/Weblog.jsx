@@ -36,7 +36,7 @@ function Weblog({ FeachBlogPosts, FeachSinglePosts, Posts, SingelPost }) {
     }else{
       return (
         <Card>
-          <div className="text-center">
+          <div className="text-center pt-3">
             <Spinner animation="border" variant="divar-color" size="lg"/>
           </div>
         </Card>
@@ -56,7 +56,7 @@ function Weblog({ FeachBlogPosts, FeachSinglePosts, Posts, SingelPost }) {
     }
     else{
       return (
-        <div className="text-center">
+        <div className="text-center pt-5">
           <Spinner animation="border" variant="divar-color" />
         </div>
       );

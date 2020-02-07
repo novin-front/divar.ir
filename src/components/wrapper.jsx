@@ -1,7 +1,7 @@
 import React from 'react'
 import AllRoute from '../Router'
 import DemoNavbar from './Navbars/DemoNavbar';
-import { Switch,Router, Route} from "react-router-dom";
+import { Switch,Router, Route ,Link} from "react-router-dom";
 import NotFound from './Error/NotFound';
 export default function Wrapper() {
     const RenderComponents = (routes)=>{
@@ -38,12 +38,12 @@ export default function Wrapper() {
         });
     }
     return (
-        <>
-        <DemoNavbar/>
-            <Switch>
-            {RenderComponents(AllRoute)}
-            <Route component={NotFound} />
-            </Switch>
-        </>
-    )
+      <>
+        <DemoNavbar />
+        <Switch>
+          {RenderComponents(AllRoute)}
+          <Route component={NotFound} />
+        </Switch>
+      </>
+    );
 }
